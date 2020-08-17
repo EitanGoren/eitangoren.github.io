@@ -1516,7 +1516,7 @@ fieldset[disabled]
 
 /* button bg */
 .btn-primary {
-  background-color: #00000075;
+  background-color: #000000b2;
   color: #FFFFFF;
 }
 
@@ -3393,9 +3393,9 @@ body {
 .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):focus,
 .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):hover,
 .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):active {
-  background-color: rgba(222, 222, 222, 0.3);
+  background-color: rgba(222, 222, 222, 0.473);
 }
-
+/* pook */
 .navbar.bg-white:not(.navbar-transparent) .logo-container {
   border: 1px solid #888;
 }
@@ -3405,15 +3405,15 @@ body {
 }
 
 .bg-primary {
-  background-color: #00000075 !important;
+  background-color: #000000b2 !important;
 }
 
 .bg-info {
-  background-color: #00000075 !important;
+  background-color: #000000b2 !important;
 }
 
 .bg-success {
-  background-color: #00000075 !important;
+  background-color: #000000b2 !important;
 }
 
 .bg-danger {
@@ -5134,8 +5134,8 @@ Created using IcoMoon - icomoon.io
 
 /* background pic */
 .page-header {
-  height: 110vh;
-  max-height: 1250px;
+  height: 100vh;
+  max-height: 1050px;
   padding: 0;
   color: #FFFFFF;
   position: relative;
@@ -5227,7 +5227,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .section-story-overview .image-container {
-  height: 335px;
+  height: 400px; /* 335px */
   position: relative;
   background-position: center center;
   background-size: cover;
