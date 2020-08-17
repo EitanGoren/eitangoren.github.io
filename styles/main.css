@@ -6965,7 +6965,7 @@ Created using IcoMoon - icomoon.io
   opacity: 0;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 240px) {
   .gallery figure.cc-effect .h4 {
     font-size: 14px;
   }
