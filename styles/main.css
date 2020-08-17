@@ -1345,8 +1345,8 @@
 .navbar .navbar-nav > a.btn.dropdown-toggle:focus,
 .show >
 .navbar .navbar-nav > a.btn.dropdown-toggle:hover {
-  background-color: #979797;
-  color: #FFFFFF;
+  background-color: #d32020;
+  color: #ffffff;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -7096,7 +7096,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(55, 140, 63, 0.6);
+  border: 15px solid rgba(55, 85, 140, 0.6);
   border-radius: 50%;
   height: 180px;
   width: 180px;
@@ -7171,7 +7171,7 @@ Created using IcoMoon - icomoon.io
   padding-top: 60px;
   padding-right: 0;
   text-align: center;
-  color: rgb(226, 19, 19);
+  color: #fff;
 }
 
 /* Education Style */
@@ -7183,7 +7183,7 @@ Created using IcoMoon - icomoon.io
   padding-top: 60px;
   padding-right: 0;
   text-align: center;
-  color: rgb(226, 21, 21);
+  color: #fff;
 }
 
 /* References Style */
@@ -7205,7 +7205,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .cc-reference .carousel-indicators .active {
-  background-color: #378C3F;
+  background-color: #37828c;
 }
 
 .cc-reference .carousel-inner {
@@ -7248,16 +7248,8 @@ Created using IcoMoon - icomoon.io
   color: #3b5998;
 }
 
-.cc-twitter:hover i {
-  color: #1da1f2;
-}
-
-.cc-google-plus:hover i {
-  color: #dd4b39;
-}
-
 .cc-instagram:hover i {
-  color: #405de6;
+  color: #e67d40;
 }
 
 /* Credit Style */
