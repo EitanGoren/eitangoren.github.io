@@ -6894,8 +6894,7 @@ Created using IcoMoon - icomoon.io
 .gallery .cc-porfolio-image figure img {
   position: relative;
   display: block;
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 25%;
   opacity: 1;
 }
 
@@ -6911,7 +6910,7 @@ Created using IcoMoon - icomoon.io
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 50%;
   height: 100%;
 }
 
