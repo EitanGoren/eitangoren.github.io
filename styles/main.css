@@ -6888,6 +6888,7 @@ Created using IcoMoon - icomoon.io
   position: relative;
   overflow: hidden;
   text-align: center;
+  max-width: 260px;
 }
 
 .gallery .cc-porfolio-image figure img {
@@ -6910,13 +6911,13 @@ Created using IcoMoon - icomoon.io
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 .gallery .cc-porfolio-image figure figcaption > a {
-  z-index: 1000;
-  text-indent: 200%;
+  z-index: 100;
+  text-indent: 100%;
   white-space: nowrap;
   font-size: 0;
   opacity: 0;
@@ -6965,7 +6966,7 @@ Created using IcoMoon - icomoon.io
   opacity: 0;
 }
 
-@media (max-width: 240px) {
+@media (max-width: 260px) {
   .gallery figure.cc-effect .h4 {
     font-size: 14px;
   }
@@ -6974,6 +6975,7 @@ Created using IcoMoon - icomoon.io
 .gallery figcaption .container {
   position: absolute;
   bottom: 20px;
+  size: 260px;
 }
 
 .gallery figure.cc-effect p,
