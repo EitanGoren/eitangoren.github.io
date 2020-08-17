@@ -5132,9 +5132,10 @@ Created using IcoMoon - icomoon.io
   padding-top: 20vh;
 }
 
+/* background pic */
 .page-header {
   height: 100vh;
-  max-height: 1050px;
+  max-height: 1250px;
   padding: 0;
   color: #FFFFFF;
   position: relative;
