@@ -1516,7 +1516,7 @@ fieldset[disabled]
 
 /* button bg */
 .btn-primary {
-  background-color: #37788c;
+  background-color: #00000075;
   color: #FFFFFF;
 }
 
@@ -3405,15 +3405,15 @@ body {
 }
 
 .bg-primary {
-  background-color: #37788c !important;
+  background-color: #00000075 !important;
 }
 
 .bg-info {
-  background-color: #2CA8FF !important;
+  background-color: #00000075 !important;
 }
 
 .bg-success {
-  background-color: #37788c !important;
+  background-color: #00000075 !important;
 }
 
 .bg-danger {
