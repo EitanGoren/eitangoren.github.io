@@ -7096,8 +7096,8 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(55, 85, 140, 0.6);
-  border-radius: 50%;
+  border: 15px solid rgb(255, 255, 255);
+  border-radius: 70%;
   height: 180px;
   width: 180px;
   position: absolute;
