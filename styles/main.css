@@ -2601,7 +2601,7 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-  background: #ffffff;
+  background: #2CA8FF;
 }
 
 .progress-container.progress-primary .progress-bar {
@@ -2610,11 +2610,11 @@ textarea.form-control:focus, textarea.form-control:active {
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-  color: #fff;
+  color: #2CA8FF;
 }
 
 .progress-container.progress-info .progress {
-  background: #fff;
+  background: #2CA8FF;
 }
 
 .progress-container.progress-info .progress-bar {
