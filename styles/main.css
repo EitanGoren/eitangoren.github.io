@@ -2601,16 +2601,16 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-  background: rgba(55, 140, 63, 0.4);
+  background: rgb(55, 106, 140);
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #378C3F;
+  background: rgb(55, 106, 140);
 }
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-  color: #378C3F;
+  color: #2CA8FF;
 }
 
 .progress-container.progress-info .progress {
@@ -2627,16 +2627,16 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-success .progress {
-  background: rgba(24, 206, 15, 0.3);
+  background: #2CA8FF;
 }
 
 .progress-container.progress-success .progress-bar {
-  background: #18ce0f;
+  background: #2CA8FF;
 }
 
 .progress-container.progress-success .progress-value,
 .progress-container.progress-success .progress-badge {
-  color: #18ce0f;
+  color: #2CA8FF;
 }
 
 .progress-container.progress-warning .progress {
