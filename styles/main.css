@@ -7128,6 +7128,19 @@ Created using IcoMoon - icomoon.io
   transition: all .3s ease-out;
 }
 
+.cc-project-image img {
+  position: relative;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding: 0;
+  margin: 0;
+  border: 25px solid transparent;
+  z-index: 9999;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
 .cc-profile-image a:hover img {
   -webkit-transform: scale(1.06, 1.06);
           transform: scale(1.06, 1.06);
