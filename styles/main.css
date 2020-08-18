@@ -7269,8 +7269,8 @@ Created using IcoMoon - icomoon.io
 .cc-contact-information {
   width: 100%;
   position: relative;
-  overflow: hidden;
-  opacity: 0.4;
+  overflow: scroll;
+  opacity: 0.35;
 }
 
 .cc-contact-information .cc-contact {
