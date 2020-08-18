@@ -2601,11 +2601,11 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-  background: #2CA8FF;
+  background: #fff;
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #ffffff;
+  background: #2CA8FF;
 }
 
 .progress-container.progress-primary .progress-value,
