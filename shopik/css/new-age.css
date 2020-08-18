@@ -63,37 +63,37 @@ section h2 {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: #00000083;
   transition: all .35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif', 'Cursive';
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand {
   color: white;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif', 'Cursive';
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: white;
+  color: rgb(255, 0, 0);
 }
 
 #mainNav .navbar-toggler {
-  font-size: 12px;
+  font-size: 17px;
   padding: 8px 10px;
   color: #222222;
 }
 
 #mainNav .navbar-nav > li > a {
-  font-size: 11px;
+  font-size: 15px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #fdcc52 !important;
+  color: #3d75ec !important;
   background-color: transparent;
 }
 
