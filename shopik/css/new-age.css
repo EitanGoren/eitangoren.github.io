@@ -195,7 +195,7 @@ header.masthead .device-container .screen img {
     font-size: 50px;
   }
   header.masthead .device-container {
-    max-width: 205px;
+    max-width: 325px;
   }
 }
 
@@ -249,7 +249,7 @@ section.features .section-heading p {
 
 section.features .device-container,
 section.features .feature-item {
-  max-width: 325px;
+  max-width: 300px;
   margin: 0 auto;
 }
 
