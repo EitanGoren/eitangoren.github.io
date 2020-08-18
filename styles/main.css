@@ -7128,6 +7128,27 @@ Created using IcoMoon - icomoon.io
   transition: all .3s ease-out;
 }
 
+
+.cc-project-image a {
+  position: relative;
+}
+
+.cc-project-image a:before {
+  content: "";
+  border: 25px solid rgba(255, 255, 255, 0.671);
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 0;
+  -webkit-animation: pulsate 1.6s ease-out;
+          animation: pulsate 1.6s ease-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  opacity: 0.0;
+  z-index: 99;
+}
+
 .cc-project-image img {
   position: relative;
   border-radius: 50%;
