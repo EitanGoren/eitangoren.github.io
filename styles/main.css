@@ -2591,7 +2591,6 @@ textarea.form-control:focus, textarea.form-control:active {
   background: rgba(255, 255, 255, 0.3);
 }
 
-/*here*/
 .progress-container.progress-neutral .progress-bar {
   background: #FFFFFF;
 }
@@ -2606,12 +2605,12 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #fff
+  background: rgb(55, 106, 140);
 }
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-  color: #ffffff;
+  color: #2CA8FF;
 }
 
 .progress-container.progress-info .progress {
@@ -7271,7 +7270,7 @@ Created using IcoMoon - icomoon.io
   width: 100%;
   position: relative;
   overflow: scroll;
-
+  
 }
 
 .cc-contact-information .cc-contact {
