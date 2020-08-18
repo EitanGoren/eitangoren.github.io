@@ -7151,12 +7151,12 @@ Created using IcoMoon - icomoon.io
 
 .cc-project-image img {
   position: relative;
-  border-radius: 50%;
+  border-radius: 5%;
   height: 20%;
   width: 20%;
   padding: 0;
   margin: 0;
-  border: 25px solid burlywood;
+  border: 25px solid beige;
   z-index: 9999;
   -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
