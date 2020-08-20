@@ -421,7 +421,7 @@ h1, h2, h3, h4, h5, h6 {
 #info {
   width: 100%;
   height: 65vh;
-  background: url("https://i.pinimg.com/originals/8b/3b/3f/8b3b3f71270d16eaa0f626cfcd1bc9de.jpg") top center;
+  background: url("https://wallup.net/wp-content/uploads/2019/09/179431-prague-czech-republic-czech-republic-city-stare-mesto-evening-houses-buildings-people-shopping-lights-pavement-748x498.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -1281,12 +1281,23 @@ div.desc {
 
 #footer .footer-top h3 {
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 350;
   color: #fff;
   position: relative;
   font-family: "Poppins", sans-serif;
-  padding-bottom: 0;
-  margin-bottom: 0;
+  padding-bottom: 5;
+  margin-bottom: 15;
+}
+
+
+#footer .footer-top h4 {
+  font-size: 30px;
+  font-weight: 250;
+  color: #fff;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 5;
+  margin-bottom: 15;
 }
 
 #footer .footer-top p {
@@ -1398,15 +1409,16 @@ div.desc {
 
 /*badges*/
 
-section.portfolio-details .badges .badge-link {
+.badges .badge-link {
   display: block;
-  margin-bottom: 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
-section.portfolio-details .badges .badge-link:last-child {
+.badges .badge-link:last-child {
   margin-bottom: 0;
 }
 
-section.portfolio-details .badges .badge-link img {
+.badges .badge-link img {
   height: 60px;
 }
