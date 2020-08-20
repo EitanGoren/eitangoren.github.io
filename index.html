@@ -9,16 +9,16 @@
 
   <script type="text/javascript">
     
-    $(window).on('scroll', function(){
-      if($(window).scrollTop()){
-        $('header').removeClass('header-transparent');
-        $('header').addClass('header-scrolled');
-      }
-      else{
-        $('header').removeClass('header-scrolled');
-        $('header').addClass('header-transparent');
-      }
-    })
+    ///////////////// fixed menu on scroll for desktop
+if ($(window).width() > 992) {
+  $(window).scroll(function(){  
+     if ($(this).scrollTop() > 40) {
+        $('#navbar').addClass("black");
+      }else{
+        $('#nacbar').removeClass("black");
+      }   
+  });
+} // end if
 
   </script>
 

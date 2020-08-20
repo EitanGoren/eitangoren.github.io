@@ -1,9 +1,4 @@
-/**
-* Template Name: Vlava - v2.1.0
-* Template URL: https://bootstrapmade.com/vlava-free-bootstrap-one-page-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 !(function($) {
   "use strict";
 
@@ -92,7 +87,7 @@
   var nav_sections = $('section');
   var main_nav = $('.nav-menu, .mobile-nav');
 
-  $(window).on('scroll', function() {
+ /* $(window).on('scroll', function() {
     var cur_pos = $(this).scrollTop() + 200;
 
     nav_sections.each(function() {
@@ -109,7 +104,7 @@
         $(".nav-menu ul:first li:first").addClass('active');
       }
     });
-  });
+  }); */
 
   // Toggle .header-scrolled class to #header when page is scrolled
   $(window).scroll(function() {
