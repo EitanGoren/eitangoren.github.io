@@ -47,7 +47,7 @@
         <!-- <a href="index.html"><img src="assets/img/ic_shopik.png" alt="" class="img-fluid"></a> -->
       </div>
 
-      <nav class="nav-menu d-none d-lg-block">
+      <nav  id="navbar" class="nav-menu d-none d-lg-block">
         <ul>
           <li><a href="#header">Home</a></li>
           <li><a href="#portfolio-details"> Info </a></li>
@@ -203,3 +203,17 @@
 </body>
 
 </html>
+
+<script type="text/javascript">
+  /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-50px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+  </script>
