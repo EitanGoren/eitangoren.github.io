@@ -86,8 +86,13 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-#header .logo h1 a, #header .logo h1 a:hover {
-  color: rgb(255, 0, 0);
+#header .logo h1 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#header .logo h1 a:hover {
+  color: #00ffea;
   text-decoration: none;
 }
 
@@ -146,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   padding: 10px 0;
   background: rgb(255, 255, 255);
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px #000000;
   transition: ease all 0.3s;
 }
 
@@ -170,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #ff0000;
+  color: #00ffea;
 }
 
 .nav-menu .drop-down > a:after {
@@ -812,13 +817,13 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #444444;
+  color: #000000;
   margin-bottom: 10px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #85b0be;
+  color: #00ffea;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1051,10 +1056,11 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  margin-top: 86px;
+  margin-top: 80px;
   padding: 15px 0;
   min-height: 40px;
-  background: #f2fafe;
+  background: #858585;
+  color: #ffffff;
 }
 
 @media (max-width: 992px) {
@@ -1063,9 +1069,9 @@ section {
   }
 }
 
-.breadcrumbs h2 {
-  font-size: 26px;
-  font-weight: 600;
+.breadcrumbs h1 {
+  font-size: 45px;
+  font-weight: 200;
 }
 
 .breadcrumbs ol {
@@ -1103,14 +1109,14 @@ section {
 .portfolio-details .portfolio-details-carousel .owl-dot {
   display: inline-block;
   margin: 0 5px;
-  width: 12px;
-  height: 12px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background-color: #ddd !important;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #85b0be !important;
+  background-color: #00ffea !important;
 }
 
 .portfolio-details .portfolio-info h3 {
