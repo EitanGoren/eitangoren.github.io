@@ -420,8 +420,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #info {
   width: 100%;
-  height: 65vh;
-  background: url("https://wallup.net/wp-content/uploads/2019/09/179431-prague-czech-republic-czech-republic-city-stare-mesto-evening-houses-buildings-people-shopping-lights-pavement-748x498.jpg") top center;
+  height: 100vh;
+  background: url("https://images.wallpaperscraft.com/image/bicycle_street_shop_125357_1920x1200.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -451,19 +451,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #info h1 {
-  margin: 0 0 15px 0;
-  font-size: 52px;
+  margin-top: 20px;
+  font-size: 70px;
   font-weight: 300;
   line-height: 56px;
-  text-transform: uppercase;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #fff;
 }
 
 #info h2 {
-  color: #eee;
-  font-weight: 300;
-  margin-bottom: 25px;
-  font-size: 38px;
+  margin-top: 20px;
+  font-size: 60px;
+  font-weight: 350;
+  line-height: 56px;
+  color: #fff;
+  padding: 15px;
 }
 
 #info .btn-get-started {
@@ -580,6 +582,7 @@ section {
 ---------------------------------------------------------------*/
 
 /* Profile Image Style */
+
 @-webkit-keyframes pulsate {
   0% {
     -webkit-transform: scale(0.6, 0.6);
@@ -595,6 +598,7 @@ section {
     opacity: 0.0;
   }
 }
+
 @keyframes pulsate {
   0% {
     -webkit-transform: scale(0.6, 0.6);
@@ -644,7 +648,6 @@ section {
   transition: all .3s ease-out;
 }
 
-
 .cc-project-image a {
   position: relative;
 }
@@ -689,61 +692,63 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
-.services {
-  padding-bottom: 40px;
+# App-image
+---------------------------------------------------------------*/
+
+/* App Image Style */
+
+.cc-app-image a {
+  position: relative;
 }
 
-.services .icon-box {
-  margin-bottom: 40px;
-}
-
-.services .icon {
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 72px;
-  height: 72px;
+.cc-app-image a:before {
+  content: "";
+  border: 25px solid rgba(255, 255, 255, 0.671);
   border-radius: 50%;
-  transition: 0.5s;
-  border: 2px solid #85b0be;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 0;
+  opacity: 0.0;
+  z-index: 99;
 }
 
-.services .icon i {
-  color: #649aac;
-  font-size: 24px;
+.cc-app-image img {
+  position: relative;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  padding: 0;
+  margin: 0;
+  border: 25px solid transparent;
+  z-index: 9999;
 }
 
-.services .title {
-  margin-left: 90px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
+.cc-app-image a {
+  position: relative;
 }
 
-.services .title a {
-  color: #052c3f;
-  transition: 0.3s;
+.cc-app-image a:before {
+  content: "";
+  border: 25px solid rgba(255, 255, 255, 0.671);
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 0;
+  opacity: 0.0;
+  z-index: 99;
 }
 
-.services .description {
-  margin-left: 90px;
-  line-height: 24px;
-  font-size: 14px;
-}
-
-.services .icon-box:hover .icon {
-  background: #85b0be;
-}
-
-.services .icon-box:hover .icon i {
-  color: #fff;
-}
-
-.services .icon-box:hover .title a {
-  color: #85b0be;
+.cc-app-image img {
+  position: relative;
+  border-radius: 5%;
+  height: 20%;
+  width: 20%;
+  padding: 0;
+  margin: 0;
+  border: 25px solid beige;
+  z-index: 9999;
 }
 
 /*--------------------------------------------------------------
@@ -1224,8 +1229,8 @@ div.desc {
   background-color: #00ffea !important;
 }
 
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
+.portfolio-details .portfolio-info h2 {
+  font-size: 40px;
   font-weight: 400;
   margin-bottom: 20px;
 }
