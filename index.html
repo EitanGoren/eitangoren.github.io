@@ -6,6 +6,20 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Eitan Goren</title>
+
+  <script type="text/javascript">
+    
+    $(window).on('scroll',function(){
+      if($(window).scrollTop()){
+        $('nav').addClass('black');
+      }
+      else{
+        $('nav').removeClass('black');
+      }
+    })
+
+  </script>
+
   <meta content="pook" name="descriptison">
   <meta content="pook" name="keywords">
 
@@ -448,5 +462,5 @@
     prevScrollpos = currentScrollPos;
   }
   </script>
-  
+
 </html>

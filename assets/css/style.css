@@ -111,6 +111,10 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+nav.black{
+  background: rgba(0, 0, 0,.8);
+}
+
 /* Desktop Navigation */
 .nav-menu, .nav-menu * {
   margin: 0;
@@ -1166,7 +1170,7 @@ div.desc {
 }
 
 .portfolio-details .portfolio-info p {
-  font-size: 15px;
+  font-size: 20px;
   padding: 15px 0 0 0;
 }
 
@@ -1175,6 +1179,7 @@ div.desc {
     padding-top: 20px;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Footer
