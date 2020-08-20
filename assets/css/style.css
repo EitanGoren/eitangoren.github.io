@@ -428,7 +428,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #info:before {
   content: "";
-  background: rgba(5, 44, 63, 0.5);
+  background: rgba(0, 0, 0, 0.562);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -468,27 +468,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px;
 }
 
-#info .btn-get-started {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 28px;
-  border-radius: 4px;
-  transition: 0.5s;
-  border: 2px solid #ffffff;
-  color: rgb(255, 255, 255);
-}
-
-#info .btn-get-started:hover {
-  background: #0000007e;
-  text-decoration-color: #00ffea;
-  border: 2px solid #00ffea;
-  color: #00ffea;
-}
-
 @media (min-width: 1024px) {
   #info {
     background-attachment: fixed;
@@ -515,7 +494,7 @@ section {
 }
 
 .section-bg {
-  background-color: #ffffff;
+  background-color: #dadada;
 }
 
 .section-title {
@@ -709,6 +688,10 @@ section {
   width: 200px;
   position: absolute;
   left: 0;
+  -webkit-animation: pulsate 1.6s ease-out;
+          animation: pulsate 1.6s ease-out;
+  -webkit-animation-iteration-count: initial;
+          animation-iteration-count: initial;
   opacity: 0.0;
   z-index: 99;
 }
@@ -722,6 +705,8 @@ section {
   margin: 0;
   border: 25px solid transparent;
   z-index: 9999;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
 }
 
 .cc-app-image a {
@@ -736,6 +721,10 @@ section {
   width: 200px;
   position: absolute;
   left: 0;
+  -webkit-animation: pulsate 1.6s ease-out;
+          animation: pulsate 1.6s ease-out;
+  -webkit-animation-iteration-count: initial;
+          animation-iteration-count: initial;
   opacity: 0.0;
   z-index: 99;
 }
@@ -749,7 +738,10 @@ section {
   margin: 0;
   border: 25px solid beige;
   z-index: 9999;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
 }
+
 
 /*--------------------------------------------------------------
 # Featured
@@ -1209,10 +1201,11 @@ div.desc {
 
 .portfolio-details {
   padding-top: 20px;
+  margin-top: 40px;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
-  margin-top: 20px;
+  margin-top: 15px;
   text-align: center;
 }
 
@@ -1222,7 +1215,7 @@ div.desc {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #ddd !important;
+  background-color: rgb(194, 194, 194) !important;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
