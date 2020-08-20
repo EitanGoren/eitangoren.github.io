@@ -1098,18 +1098,14 @@ section {
 --------------------------------------------------------------*/
 
 div.gallery {
-  width: 45%;
-  height: 550px;
+  width: 68%;
+  height: 565px;
   margin: auto;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
 div.gallery img {
-  width: 45%;
-  height: 550px;
+  width: 68%;
+  height: 565px;
 }
 
 div.desc {
