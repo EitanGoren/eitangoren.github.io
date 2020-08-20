@@ -6,6 +6,20 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title> Shopik | Eitan </title>
+
+  <script type="text/javascript">
+    
+    $(window).on('scroll',function(){
+      if($(window).scrollTop()){
+        $('nav').addClass('black');
+      }
+      else{
+        $('nav').removeClass('black');
+      }
+    })
+
+  </script>
+  
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -130,7 +144,7 @@
               <p>
                 Explanation about Shopik.
               </p>
-              
+
               <li><h5><strong>Download link</strong>: 
                 <div class="badges">
                   <a class="badge-link" href="#"><img src="assets/img/google-play-badge.svg" alt=""></a>
