@@ -914,11 +914,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #00ffea;
+  color: #fff;
   float: left;
   width: 44px;
   height: 44px;
-  background: white;
+  background: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -931,18 +931,17 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #00ffea;
+  color: #fff;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #00ffea;
+  color: #fff;
 }
 
 .contact .info:hover i {
-  background: #00ffea;
   color: #fff;
 }
 
@@ -1032,8 +1031,6 @@ section {
 
 .contact .php-email-form button[type="submit"]:hover {
   color: #00ffea;
-  border-radius: 4px;
-  border: #00ffea;
 }
 
 @-webkit-keyframes animate-loading {
