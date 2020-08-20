@@ -1098,10 +1098,9 @@ section {
 --------------------------------------------------------------*/
 
 div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+  width: 50%;
+  height: 600px;
+  margin: auto;
 }
 
 div.gallery:hover {
@@ -1109,8 +1108,8 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
+  width: 50%;
+  height: 600px;
 }
 
 div.desc {
@@ -1123,7 +1122,7 @@ div.desc {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
-  margin-top: 5px;
+  margin-top: 25px;
   text-align: center;
 }
 
