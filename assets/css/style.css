@@ -1139,7 +1139,7 @@ section {
   padding: 15px 0 0 0;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 500px) {
   .portfolio-details .portfolio-info {
     padding-top: 20px;
   }
