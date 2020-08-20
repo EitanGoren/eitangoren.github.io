@@ -1098,8 +1098,8 @@ section {
 --------------------------------------------------------------*/
 
 div.gallery {
-  width: 50%;
-  height: 600px;
+  width: 45%;
+  height: 550px;
   margin: auto;
 }
 
@@ -1108,8 +1108,8 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 50%;
-  height: 600px;
+  width: 45%;
+  height: 550px;
 }
 
 div.desc {
