@@ -423,7 +423,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f6f9fa;
+  background-color: #ffffff;
 }
 
 .section-title {
@@ -437,7 +437,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #052c3f;
+  color: #00ffea;
 }
 
 .section-title p {
