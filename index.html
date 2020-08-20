@@ -11,10 +11,12 @@
     
     $(window).on('scroll', function(){
       if($(window).scroll()){
+        $('header').removeClass('header-transparent');
         $('header').addClass('header-scrolled');
       }
       else{
-        $('header').removeClass('header-transparent');
+        $('header').removeClass('header-scrolled');
+        $('header').addClass('header-transparent');
       }
     })
 
