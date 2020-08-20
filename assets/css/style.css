@@ -420,7 +420,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #info {
   width: 100%;
-  height: 100vh;
+  height: 65vh;
   background: url("https://img.freepik.com/free-photo/product-package-boxes-shopping-bag-cart-with-laptop-online-shopping-delivery-concept_38716-138.jpg?size=626&ext=jpg") top center;
   background-size: cover;
   position: relative;
