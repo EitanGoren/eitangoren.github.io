@@ -330,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 85vh;
+  height: 80vh;
   background: url("../img/iguazu_falls.jpg") top center;
   background-size: cover;
   position: relative;
@@ -338,7 +338,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(5, 44, 63, 0.5);
+  background: rgba(0, 0, 0, 0.527);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1112,13 +1112,13 @@ section {
 
 div.gallery {
   width: 70%;
-  height: 565px;
+  height: 580px;
   margin: auto;
 }
 
 div.gallery img {
   width: 70%;
-  height: 565px;
+  height: 580px;
 }
 
 div.desc {
@@ -1128,7 +1128,7 @@ div.desc {
 
 .portfolio-details {
   padding-top: 20px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
@@ -1284,7 +1284,7 @@ div.desc {
 #hero .hero-container .social-links a {
   font-size: 30px;
   display: inline-block;
-  background: #00000056;
+  background: #0000006b;
   color: #ffffff;
   line-height: 1;
   padding: 12px 0;
