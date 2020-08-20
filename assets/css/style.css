@@ -1022,7 +1022,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #00ffea;
+  background: rgba(0, 0, 0, 0.562);
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1031,7 +1031,9 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #6a9fb0;
+  color: #00ffea;
+  border-radius: 4px;
+  border: #00ffea;
 }
 
 @-webkit-keyframes animate-loading {
