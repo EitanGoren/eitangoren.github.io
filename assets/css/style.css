@@ -909,7 +909,7 @@ section {
 .contact .info-wrap {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
-  background: rgba(0, 0, 0, 0.281);
+  background: rgba(0, 0, 0, 0.644);
 }
 
 .contact .info i {
@@ -1022,7 +1022,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #85b0be;
+  background: #00ffea;
   border: 0;
   padding: 10px 24px;
   color: #fff;
