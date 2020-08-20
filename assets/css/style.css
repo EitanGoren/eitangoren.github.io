@@ -1236,10 +1236,33 @@ section {
   margin-top: 30px;
 }
 
+#hero .hero-container .social-links {
+  margin-top: 30px;
+}
+
+#hero .hero-container .social-links a {
+  font-size: 30px;
+  display: inline-block;
+  background: #00000056;
+  color: #ffffff;
+  line-height: 1;
+  padding: 12px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 52px;
+  height: 52px;
+  transition: 0.3s;
+}
+
+#hero .hero-container .social-links a:hover {
+  color: #00ffea;
+  text-decoration: none;
+}
+
 #footer .footer-top .social-links a {
   font-size: 23px;
   display: inline-block;
-  background: #ffffff;
+  background: #ffffffd3;
   color: #000000;
   line-height: 1;
   padding: 10px 0;
@@ -1252,7 +1275,6 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #ffffff;
   color: #00ffea;
   text-decoration: none;
 }
