@@ -97,8 +97,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  margin-right: 20px;
-  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 15px;
   max-height: 38px;
   width: 38px;
   height: auto;
