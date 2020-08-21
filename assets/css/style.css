@@ -101,12 +101,10 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 40px;
   width: 40px;
   height: auto;
-  -webkit-animation: pulsate 1.6s ease-out;
-  animation: pulsate 2s ease-out;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
 }
-
 
 #header .logo a:hover img {
   -webkit-transform: scale(1.06, 1.06);
