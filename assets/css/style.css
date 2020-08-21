@@ -102,13 +102,16 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: auto;
   animation-name: example2;
-  animation-duration: 3s;
+  animation-duration: 2.5s;
   animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
 }
 
 #header .logo a:hover img {
-  -webkit-transform: scale(1.06, 1.06);
-          transform: scale(1.06, 1.06);
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  -webkit-transform: scale(1.4, 1.4);
+          transform: scale(1.4, 1.4);
 }
 
 #header .logo a:hover:before {
@@ -468,20 +471,20 @@ h1, h2, h3, h4, h5, h6 {
 #info h1 {
   margin-top: 80px;
   font-size: 80px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 56px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Fira Code', monospace;
   color: #fff;
 }
 
 #info h2 {
   margin-top: 20px;
   font-size: 60px;
-  font-weight: 550;
+  font-weight: 200;
   line-height: 56px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Fira Code', monospace;
   color: #fff;
-  padding: 15px;
+  padding: 10px;
 }
 
 @media (min-width: 1024px) {
@@ -690,62 +693,27 @@ section {
 }
 
 /*--------------------------------------------------------------
-# app-image
+# App-image
 ---------------------------------------------------------------*/
 
 /* app Image Style */
 
-@-webkit-keyframes pulsate {
-  0% {
-    -webkit-transform: scale(0.6, 0.6);
-            transform: scale(0.6, 0.6);
-    opacity: 0.0;
-  }
-  50% {
-    opacity: 1.0;
-  }
-  100% {
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
-    opacity: 0.0;
-  }
-}
-
-@keyframes pulsate {
-  0% {
-    -webkit-transform: scale(0.6, 0.6);
-            transform: scale(0.6, 0.6);
-    opacity: 0.0;
-  }
-  50% {
-    opacity: 1.0;
-  }
-  100% {
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
-    opacity: 0.0;
-  }
-}
-
 .cc-app-image a {
   position: relative;
-  animation-name: example;
-  animation-duration: 3s;
+  animation-name: example2;
+  animation-duration: 2.5s;
   animation-fill-mode: forwards;
+  animation-iteration-count: initial;
 }
 
 .cc-app-image a:before {
   content: "";
-  border: 25px solid rgba(255, 255, 255, 0.671);
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  border: 15px solid rgba(255, 255, 255, 0.671);
+  border-radius: 25%;
+  height: 50px;
+  width: 50px;
   position: absolute;
   left: 0;
-  -webkit-animation: pulsate 1.6s ease-out;
-          animation: pulsate 1.6s ease-out;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
   opacity: 0.0;
   z-index: 99;
 }
@@ -753,10 +721,11 @@ section {
 .cc-app-image img {
   position: relative;
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: auto;
+  width: 135px;
   padding: 0;
   margin: 0;
+  align-items: center;
   border: 25px solid transparent;
   z-index: 9999;
   -webkit-transition: all .3s ease-out;
@@ -775,10 +744,6 @@ section {
   width: 200px;
   position: absolute;
   left: 0;
-  -webkit-animation: pulsate 1.6s ease-out;
-          animation: pulsate 1.6s ease-out;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
   opacity: 0.0;
   z-index: 99;
 }
@@ -797,8 +762,8 @@ section {
 }
 
 .cc-app-image a:hover img {
-  -webkit-transform: scale(1.06, 1.06);
-          transform: scale(1.06, 1.06);
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
 }
 
 .cc-app-image a:hover:before {
@@ -1465,10 +1430,8 @@ div.desc {
     left: 0px; 
     top: 0px;  
   }
-
 }
 
-/* The animation code */
 @keyframes example2 {
   
   0% {
@@ -1478,7 +1441,7 @@ div.desc {
 
   50% {
     left: 0px; 
-    top: -5px;
+    top: -25px;
   }
 
   100% {
