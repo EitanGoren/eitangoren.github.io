@@ -969,11 +969,9 @@ section {
   position: absolute;
   left: 30px;
   right: 30px;
-  top: 20px;
-  bottom: 20px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgb(255, 255, 255);
   padding: 15px;
 }
 
@@ -984,7 +982,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info p {
-  color: #0d6e9e;
+  color: #00ffea;
   font-size: 14px;
   margin-bottom: 0;
 }
@@ -994,11 +992,11 @@ section {
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #094d6e;
+  color: #000000;
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #85b0be;
+  color: #00ffea;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1218,8 +1216,8 @@ div.desc {
 }
 
 .portfolio-details {
-  padding-top: 15px;
-  margin-top: 10px;
+  padding-top: 25px;
+  margin-top: 30px;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
@@ -1258,7 +1256,7 @@ div.desc {
 
 .portfolio-details .portfolio-info p {
   font-size: 20px;
-  padding: 15px 0 0 0;
+  padding: 10px 0 0 0;
 }
 
 @media (max-width: 900px) {
