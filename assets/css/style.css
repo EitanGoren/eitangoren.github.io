@@ -98,13 +98,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo img {
   margin-right: 20px;
-  max-height: 40px;
-  width: 40px;
+  margin-bottom: 5px;
+  max-height: 38px;
+  width: 38px;
   height: auto;
-  animation-name: example2;
-  animation-duration: 2.5s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
 }
 
 #header .logo a:hover img {
@@ -630,8 +627,8 @@ section {
   left: 0;
   -webkit-animation: pulsate 1.6s ease-out;
           animation: pulsate 1.6s ease-out;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
+  -webkit-animation-iteration-count: inherit;
+          animation-iteration-count: inherit;
   opacity: 0.0;
   z-index: 99;
 }
@@ -1236,6 +1233,18 @@ div.desc {
   }
 }
 
+/*--------------------------------------------------------------
+# Video
+--------------------------------------------------------------*/
+
+#video {
+  width: 100%;
+  height: 95vh;
+  background: #052c3f/*url("../img/bg2.jpg") top center no-repeat;*/
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+}
 
 /*--------------------------------------------------------------
 # Footer
