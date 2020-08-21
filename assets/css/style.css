@@ -1280,6 +1280,10 @@ div.desc {
   margin-bottom: 15px;
 }
 
+.portfolio-details .portfolio-info h5 {
+  font-family: "Raleway", sans-serif;
+}
+
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
@@ -1484,7 +1488,7 @@ div.desc {
 
 .badges .badge-link {
   display: block;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
@@ -1493,7 +1497,7 @@ div.desc {
 }
 
 .badges .badge-link img {
-  height: 60px;
+  height: 50px;
 }
 
 /*--------------------------------------------------------------
