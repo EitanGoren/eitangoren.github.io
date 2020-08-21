@@ -77,9 +77,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 {
-  font-size: 30px;
+  font-size: 28px;
   margin: 0;
-  padding: 0;
+  padding-top: 5px;
   line-height: 1;
   font-weight: 300;
   letter-spacing: 3px;
@@ -97,9 +97,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  padding: 10px 0 10px 25px;
-  margin: 0;
+  margin-right: 20px;
   max-height: 40px;
+  width: 40px;
+  height: auto;
 }
 
 @media (max-width: 768px) {
@@ -264,14 +265,14 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #052c3f;
+  color: #000000;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #85b0be;
+  color: #00ffea;
   text-decoration: none;
 }
 
@@ -1166,7 +1167,7 @@ div.desc {
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 #footer .footer-top h3 {
