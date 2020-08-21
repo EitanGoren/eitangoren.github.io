@@ -101,6 +101,21 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 40px;
   width: 40px;
   height: auto;
+  -webkit-animation: pulsate 1.6s ease-out;
+  animation: pulsate 2s ease-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+
+#header .logo a:hover img {
+  -webkit-transform: scale(1.06, 1.06);
+          transform: scale(1.06, 1.06);
+}
+
+#header .logo a:hover:before {
+  -webkit-animation: none;
+          animation: none;
 }
 
 @media (max-width: 768px) {
