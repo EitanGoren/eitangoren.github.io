@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 40px;
   width: 40px;
   height: auto;
-  animation-name: example;
+  animation-name: example2;
   animation-duration: 3s;
   animation-fill-mode: forwards;
 }
@@ -1351,7 +1351,22 @@ div.desc {
 
 }
 
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+/* The animation code */
+@keyframes example2 {
+  
+  0% {
+    left: 0px; 
+    top: 0px;  
+  }
 
+  50% {
+    left: 0px; 
+    top: -5px;
+  }
+
+  100% {
+    left: 0px; 
+    top: 0px;  
+  }
+
+}
