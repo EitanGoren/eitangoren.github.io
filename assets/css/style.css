@@ -435,7 +435,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #info {
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   background: url("https://images.wallpaperscraft.com/image/bicycle_street_shop_125357_1920x1200.jpg") top center;
   background-size: cover;
   position: relative;
@@ -443,7 +443,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #info:before {
   content: "";
-  background: rgba(0, 0, 0, 0.562);
+  background: rgba(136, 136, 136, 0.295);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -471,7 +471,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 100px;
   line-height: 56px;
   font-family: 'Fira Code', monospace;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 #info h2 {
@@ -480,7 +480,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 100px;
   line-height: 56px;
   font-family: 'Fira Code', monospace;
-  color: #fff;
+  color: rgb(0, 0, 0);
   padding: 10px;
 }
 
@@ -1264,8 +1264,8 @@ div.desc {
 .portfolio-details .portfolio-details-carousel .owl-dot {
   display: inline-block;
   margin: 0 5px;
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background-color: rgb(194, 194, 194) !important;
 }
@@ -1493,7 +1493,7 @@ div.desc {
 }
 
 .badges .badge-link img {
-  height: 50px;
+  height: 0px;
 }
 
 /*--------------------------------------------------------------
