@@ -1261,6 +1261,7 @@ div.gallery-trip {
 div.gallery-trip img {
   width: 100%;
   height: auto;
+  border-radius: 5%;
 }
 
 div.desc {
