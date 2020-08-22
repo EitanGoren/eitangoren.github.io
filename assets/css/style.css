@@ -520,10 +520,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   padding: 30px 0;
-}
-
-.section-bg {
-  background-color: #ffffff;
+  background: transparent;
 }
 
 .section-title {
@@ -585,6 +582,11 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+.about{
+  background-image: url("https://i.pinimg.com/originals/b2/b9/12/b2b9128b7e56515f4f6b5317a58ba1af.jpg") ;
+}
+
 .about .content h1 {
   font-weight: 550;
   font-size: 42px;
@@ -975,6 +977,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+#portfolio{
+  background: rgba(255, 255, 255, 0);
+}
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
@@ -1112,7 +1118,6 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  
   display: flex;
   justify-content: center;
   align-items: center;
