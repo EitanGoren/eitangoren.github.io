@@ -1255,6 +1255,7 @@ div.gallery-trip {
   width: 100%;
   height: auto;
   margin: auto;
+  margin-top: 25px;
 }
 
 div.gallery-trip img {
