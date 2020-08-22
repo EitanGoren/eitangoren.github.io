@@ -1253,6 +1253,7 @@ div.gallery img {
 
 div.gallery-trip {
   width: 100%;
+  background-position: center;
   height: auto;
   margin: auto;
   margin-top: 25px;
