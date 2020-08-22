@@ -1119,7 +1119,7 @@ section {
   color: #00ffea;
 }
 
-.contact .php-email-form {
+.contact .php-email-form form input[type="email"]{
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   padding: 20px;
@@ -1314,7 +1314,7 @@ div.desc {
 
 #video {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background: #ffffff;/*url("../img/bg2.jpg") top center no-repeat;*/
   align-content: center;
   position: relative;
@@ -1336,9 +1336,9 @@ div.desc {
 --------------------------------------------------------------*/
 #footer {
   width: 100%;
-  height: auto;
-  background: url("../img/bg2.jpg") top center no-repeat;
-  color: #fff;
+  height: 150px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 14px;
   position: relative;
 }
@@ -1350,21 +1350,21 @@ div.desc {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(1, 11, 16, 0.5);
-  z-index: 1;
+  z-index: 0;
+  padding-top: 10px;
 }
 
 #footer .footer-top {
   position: relative;
-  z-index: 2;
+  z-index: 0;
   text-align: center;
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 #footer .footer-top h3 {
   font-size: 36px;
   font-weight: 350;
-  color: #fff;
+  color: #000000;
   position: relative;
   font-family: "Poppins", sans-serif;
   padding-bottom: 5;
@@ -1375,11 +1375,11 @@ div.desc {
 #footer .footer-top h4 {
   font-size: 30px;
   font-weight: 250;
-  color: #fff;
+  color: #000000;
   position: relative;
   font-family: "Poppins", sans-serif;
-  padding-bottom: 5;
-  margin-bottom: 15;
+  padding: 15;
+  margin-bottom: 25;
 }
 
 #footer .footer-top p {
@@ -1396,7 +1396,7 @@ div.desc {
 }
 
 #footer .footer-top .footer-newsletter form {
-  background: #fff;
+  background: #000000;
   padding: 6px 10px 6px 8px;
   position: relative;
   border-radius: 4px;
@@ -1420,7 +1420,7 @@ div.desc {
   font-size: 16px;
   padding: 0 20px;
   background: #00ffea;
-  color: #fff;
+  color: #000000;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1431,7 +1431,7 @@ div.desc {
 }
 
 #footer .footer-top .social-links {
-  margin-top: 30px;
+  padding: 15px;
 }
 
 #hero .hero-container .social-links {
@@ -1460,15 +1460,15 @@ div.desc {
 #footer .footer-top .social-links a {
   font-size: 23px;
   display: inline-block;
-  background: #ffffffd3;
-  color: #000000;
+  background: #000000d3;
+  color: #ffffff;
   line-height: 1;
-  padding: 10px 0;
+  padding: 12px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 42px;
-  height: 42px;
+  width: 40px;
+  height: 40px;
   transition: 0.3s;
 }
 
@@ -1480,7 +1480,7 @@ div.desc {
 #footer .footer-bottom {
   z-index: 2;
   position: relative;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
