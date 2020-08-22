@@ -845,15 +845,11 @@ section {
   border-radius: 0;
   width: 110px;
   height: auto;
-  background: transparent;
 }
 
 .featured .card {
   border: 0;
   text-align: ceneter;
-  align-content: center;
-  justify-items: center;
-  background: transparent;
 }
 
 .featured .card-body {
@@ -1018,7 +1014,7 @@ section {
 }
 
 .portfolio .portfolio-item {
-  border: 1px solid rgba(0, 0, 0, 0.479);
+  border: 3px solid rgba(0, 0, 0, 0.479);
   margin-right: 20px;
   margin-top: 20px;
 }
