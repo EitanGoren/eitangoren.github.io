@@ -220,8 +220,7 @@
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-java">Java</li>
+              <li data-filter=".filter-java" class="filter-active">Java</li>
               <li data-filter=".filter-Web">Web</li>
               <li data-filter=".filter-c++">C++</li>
               <li data-filter=".filter-Web">Python</li>
@@ -239,10 +238,12 @@
             <div class="portfolio-info">
               <h4>Shopik</h4>
               <p>Android Mobile App</p>
-              <a href="assets/img/portfolio/shopik5.png" data-gall="portfolioGallery" class="venobox preview-link" title="See Pictures"><i class="bx bx-plus"></i></a>
-              <a href="assets/img/portfolio/shopik2.png" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="assets/img/portfolio/shopik3.png" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="assets/img/portfolio/shopik4.png" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/shopik3.png" data-gall="portfolioGallery" class="venobox preview-link" title="See Pictures"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/s1.png" data-gall="portfolioGallery" class="venobox preview-link" title="See Pictures"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/s2.png" data-gall="portfolioGallery" class="venobox preview-link" title="See Pictures"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/s3.png" data-gall="portfolioGallery" class="venobox preview-link" title="See Pictures"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/s4.png" data-gall="portfolioGallery" class="venobox preview-link" title="See Pictures"><i class="bx bx-plus"></i></a>
+              <a href="assets/img/portfolio/s5.png" data-overlay="#0000001f" data-gall="portfolioGallery" class="venobox preview-link" title="See Pictures"><i class="bx bx-plus"></i></a>
               <a href="shopik.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -347,10 +348,26 @@
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
+
+  <script>
+    $('.venobox').venobox({
+    framewidth : '320px',                            // default: ''
+    frameheight: '600px',                            // default: ''
+    border     : '0',                             // default: '0'
+    bgcolor    : 'transparent',                          // default: '#fff'
+    titleattr  : 'title',                       // default: 'title'
+    numerationPosition : 'bottom',
+    titleBackground : '#fff',
+    spinner : 'three-bounce',
+    titleColor : '#000000',
+    numeratio  : true,                               // default: false
+    infinigall : false,                               // default: false
+    share      : [],// default: []
+});
+  </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
