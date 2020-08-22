@@ -813,7 +813,7 @@ section {
 --------------------------------------------------------------*/
 .featured img {
   border-radius: 0;
-  width: 150px;
+  width: 110px;
   height: auto;
 }
 
@@ -1119,7 +1119,7 @@ section {
   color: #00ffea;
 }
 
-.contact .php-email-form form input[type="email"]{
+.contact .php-email-form {
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   padding: 20px;
@@ -1314,7 +1314,7 @@ div.desc {
 
 #video {
   width: 100%;
-  height: auto;
+  height: 100%;
   background: #ffffff;/*url("../img/bg2.jpg") top center no-repeat;*/
   align-content: center;
   position: relative;
@@ -1336,9 +1336,9 @@ div.desc {
 --------------------------------------------------------------*/
 #footer {
   width: 100%;
-  height: 150px;
-  background: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  height: auto;
+  background: url("../img/bg2.jpg") top center no-repeat;
+  color: #fff;
   font-size: 14px;
   position: relative;
 }
@@ -1350,21 +1350,21 @@ div.desc {
   right: 0;
   top: 0;
   bottom: 0;
-  z-index: 0;
-  padding-top: 10px;
+  background: rgba(1, 11, 16, 0.5);
+  z-index: 1;
 }
 
 #footer .footer-top {
   position: relative;
-  z-index: 0;
+  z-index: 2;
   text-align: center;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 #footer .footer-top h3 {
   font-size: 36px;
   font-weight: 350;
-  color: #000000;
+  color: #fff;
   position: relative;
   font-family: "Poppins", sans-serif;
   padding-bottom: 5;
@@ -1375,11 +1375,11 @@ div.desc {
 #footer .footer-top h4 {
   font-size: 30px;
   font-weight: 250;
-  color: #000000;
+  color: #fff;
   position: relative;
   font-family: "Poppins", sans-serif;
-  padding: 15;
-  margin-bottom: 25;
+  padding-bottom: 5;
+  margin-bottom: 15;
 }
 
 #footer .footer-top p {
@@ -1396,7 +1396,7 @@ div.desc {
 }
 
 #footer .footer-top .footer-newsletter form {
-  background: #000000;
+  background: #fff;
   padding: 6px 10px 6px 8px;
   position: relative;
   border-radius: 4px;
@@ -1420,7 +1420,7 @@ div.desc {
   font-size: 16px;
   padding: 0 20px;
   background: #00ffea;
-  color: #000000;
+  color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1431,7 +1431,7 @@ div.desc {
 }
 
 #footer .footer-top .social-links {
-  padding: 15px;
+  margin-top: 30px;
 }
 
 #hero .hero-container .social-links {
@@ -1460,15 +1460,15 @@ div.desc {
 #footer .footer-top .social-links a {
   font-size: 23px;
   display: inline-block;
-  background: #000000d3;
-  color: #ffffff;
+  background: #ffffffd3;
+  color: #000000;
   line-height: 1;
-  padding: 12px 0;
+  padding: 10px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   transition: 0.3s;
 }
 
@@ -1480,7 +1480,7 @@ div.desc {
 #footer .footer-bottom {
   z-index: 2;
   position: relative;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
   text-align: center;
 }
 
