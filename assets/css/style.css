@@ -371,7 +371,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding: 0 15px;
+  padding: 5px 5px;
 }
 
 #hero h1 {
@@ -390,7 +390,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: #eee;
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-top: 10px;
   font-size: 42px;
 }
@@ -1270,16 +1270,13 @@ div.gallery img {
 
 div.gallery-trip {
   width: 100%;
-  background-position: center;
   height: auto;
   margin: auto;
-  margin-top: 25px;
   padding: 15px;
-  margin: 5px;
 }
 
 div.gallery-trip img {
-  width: 100%;
+  margin: auto;
   height: auto;
   border-radius: 4%;
 }
@@ -1294,12 +1291,12 @@ div.desc {
   margin-top: 15px;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
-  margin-top: 20px;
+.portfolio-details.portfolio-details-carousel.owl-nav, .portfolio-details.portfolio-details-carousel.owl-dots {
+  margin-top: 16px;
   text-align: center;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-dot {
+.portfolio-details.portfolio-details-carousel.owl-dot {
   display: inline-block;
   margin: 0 5px;
   width: 15px;
@@ -1308,17 +1305,17 @@ div.desc {
   background-color: rgb(194, 194, 194) !important;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-dot.active {
+.portfolio-details.portfolio-details-carousel.owl-dot.active {
   background-color: #00ffea !important;
 }
 
-.portfolio-details .portfolio-info h2 {
+.portfolio-details.portfolio-info h2 {
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 15px;
 }
 
-.portfolio-details .portfolio-info ul {
+.portfolio-details.portfolio-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
