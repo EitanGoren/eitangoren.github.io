@@ -1007,9 +1007,7 @@ section {
 }
 
 .portfolio .portfolio-item {
-  margin-bottom: 10px;
-  width: auto;
-  height: auto;
+  margin: auto;
 }
 
 .portfolio .portfolio-item .portfolio-info {
