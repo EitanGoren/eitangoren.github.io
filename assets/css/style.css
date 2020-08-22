@@ -607,6 +607,7 @@ section {
   line-height: 32px;
   font-size: 20px;
   color: #000000;
+  margin-bottom: 35px;
 }
 
 .about .content ul {
@@ -1006,7 +1007,9 @@ section {
 }
 
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  width: auto;
+  height: auto;
 }
 
 .portfolio .portfolio-item .portfolio-info {
@@ -1269,10 +1272,11 @@ div.gallery img {
 }
 
 div.gallery-trip {
-  width: 100%;
+  width: 700px;
   height: auto;
   margin: auto;
   padding: 15px;
+  border: 1.5px solid #555;
 }
 
 div.gallery-trip img {
@@ -1287,16 +1291,16 @@ div.desc {
 }
 
 .portfolio-details {
-  padding-top: 25px;
+  padding-top: 15px;
   margin-top: 15px;
 }
 
-.portfolio-details.portfolio-details-carousel.owl-nav, .portfolio-details.portfolio-details-carousel.owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 16px;
   text-align: center;
 }
 
-.portfolio-details.portfolio-details-carousel.owl-dot {
+.portfolio-details .portfolio-details-carousel .owl-dot {
   display: inline-block;
   margin: 0 5px;
   width: 15px;
@@ -1305,17 +1309,17 @@ div.desc {
   background-color: rgb(194, 194, 194) !important;
 }
 
-.portfolio-details.portfolio-details-carousel.owl-dot.active {
+.portfolio-details .portfolio-details-carousel .owl-dot.active {
   background-color: #00ffea !important;
 }
 
-.portfolio-details.portfolio-info h2 {
+.portfolio-details .portfolio-info h2 {
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 15px;
 }
 
-.portfolio-details.portfolio-info ul {
+.portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
