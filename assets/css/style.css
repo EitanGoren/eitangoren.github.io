@@ -1251,6 +1251,17 @@ div.gallery img {
   height: auto;
 }
 
+div.gallery-trip {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+div.gallery-trip img {
+  width: 100%;
+  height: auto;
+}
+
 div.desc {
   padding: 15px;
   text-align: center;
