@@ -577,19 +577,28 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .content h2 {
-  font-weight: 700;
+.about .content h1 {
+  font-weight: 550;
   font-size: 42px;
   line-height: 60px;
-  margin-bottom: 20px;
-  color: #052c3f;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  color: #070222;
+}
+
+.about .content h2 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 60px;
+  margin-bottom: 10px;
+  color: #070222;
 }
 
 .about .content h3 {
   font-weight: 500;
   line-height: 32px;
   font-size: 20px;
-  color: #4d8090;
+  color: #000000;
 }
 
 .about .content ul {
@@ -1257,12 +1266,14 @@ div.gallery-trip {
   height: auto;
   margin: auto;
   margin-top: 25px;
+  padding: 15px;
+  margin: 5px;
 }
 
 div.gallery-trip img {
   width: 100%;
   height: auto;
-  border-radius: 5%;
+  border-radius: 4%;
 }
 
 div.desc {
