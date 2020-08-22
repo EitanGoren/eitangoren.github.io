@@ -77,8 +77,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 {
-  font-size: 26px;
+  font-size: 20px;
   margin: 0;
+  padding-top: 5px;
   line-height: 1;
   font-weight: 300;
   letter-spacing: 3px;
@@ -537,6 +538,8 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  font-size: large;
+  color: #000000;
 }
 
 .section-title-black {
@@ -563,6 +566,8 @@ section {
 
 .section-title-black p {
   margin-bottom: 0;
+  font-size: 22px;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -801,6 +806,8 @@ section {
           animation: none;
 }
 
+
+
 /*--------------------------------------------------------------
 # Featured
 --------------------------------------------------------------*/
@@ -815,6 +822,10 @@ section {
   text-align: ceneter;
   align-content: center;
   justify-items: center;
+}
+
+.featured .c{
+
 }
 
 .featured .card-body {
@@ -962,8 +973,8 @@ section {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 1;
   text-transform: uppercase;
   color: #444444;
@@ -972,7 +983,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #85b0be;
+  color: #00ffea;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1016,7 +1027,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #0e8cb6;
+  color: #00ffea;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1042,7 +1053,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-links a:hover {
-  color: #c8dbe1;
+  color: #00ffea;
 }
 
 .portfolio .portfolio-item:hover .portfolio-info {
@@ -1184,16 +1195,18 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: rgba(0, 0, 0, 0.562);
-  border: 0;
+  background: rgba(255, 255, 255, 0);
+  border: 1;
   padding: 10px 24px;
-  color: #fff;
+  color: #000000;
+  border-color: #000000;
   transition: 0.4s;
   border-radius: 4px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
   color: #00ffea;
+  border-color: #00ffea;
 }
 
 @-webkit-keyframes animate-loading {
