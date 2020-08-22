@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   background: #ffffff00;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 #header.header-transparent {
@@ -77,13 +77,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 {
-  font-size: 28px;
+  font-size: 26px;
   margin: 0;
-  padding-top: 5px;
   line-height: 1;
   font-weight: 300;
   letter-spacing: 3px;
-  text-transform: uppercase;
 }
 
 #header .logo h1 a {
@@ -99,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   margin-right: 10px;
   margin-left: 15px;
-  max-height: 38px;
+  max-height: 35px;
   width: 35px;
   height: auto;
 }
@@ -118,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #header .logo h1 {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -345,15 +343,15 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   max-width: 100%;
-  height: 80vh;
-  background: url("../img/iguazu_falls.jpg") top center;
+  height: 75vh;
+  background: url("https://wallpaperaccess.com/full/1430408.jpg") top center;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.349);
+  background: rgba(0, 0, 0, 0.425);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -376,7 +374,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 0 0 15px 0;
+  margin-top: 46px;
   font-size: 52px;
   font-weight: 300;
   line-height: 56px;
@@ -387,7 +385,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: #eee;
   font-weight: 300;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+  margin-top: 10px;
   font-size: 38px;
 }
 
@@ -435,15 +434,15 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #info {
   width: 100%;
-  height: 75vh;
-  background: url("https://images.wallpaperscraft.com/image/bicycle_street_shop_125357_1920x1200.jpg") top center;
+  height: 55vh;
+  background: url("https://www.expatica.com/app/uploads/sites/4/2014/05/shopping-guide-to-Belgium-1920x1080.jpg") top center;
   background-size: cover;
   position: relative;
 }
 
 #info:before {
   content: "";
-  background: rgba(0, 0, 0, 0.349);
+  background: rgba(0, 0, 0, 0.39);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -470,16 +469,17 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 80px;
   font-weight: 100;
   line-height: 56px;
-  font-family: 'Short Stack', cursive;
+  font-family: "Raleway", sans-serif;
   color: #fff;
 }
 
 #info h2 {
   margin-top: 10px;
+  margin-bottom: 25px;
   font-size: 40px;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 56px;
-  font-family: 'Short Stack', cursive;
+  font-family: "Raleway", sans-serif;
   color: #fff;
   padding: 10px;
 }
@@ -573,7 +573,6 @@ section {
   font-size: 48px;
   line-height: 60px;
   margin-bottom: 20px;
-  text-transform: uppercase;
   color: #052c3f;
 }
 
@@ -655,8 +654,8 @@ section {
   content: "";
   border: 25px solid rgba(255, 255, 255, 0.671);
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 140px;
+  width: 140px;
   position: absolute;
   left: 0;
   -webkit-animation: pulsate 1.6s ease-out;
@@ -670,8 +669,8 @@ section {
 .cc-profile-image img {
   position: relative;
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 140px;
+  width: 140px;
   padding: 0;
   margin: 0;
   border: 25px solid transparent;
@@ -807,11 +806,15 @@ section {
 --------------------------------------------------------------*/
 .featured img {
   border-radius: 0;
+  width: 150px;
+  height: auto;
 }
 
 .featured .card {
   border: 0;
   text-align: ceneter;
+  align-content: center;
+  justify-items: center;
 }
 
 .featured .card-body {
@@ -945,32 +948,12 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-
-.portfolio{
-  width: 100%;
-  height: 92vh;
-  background: url("https://s1.1zoom.me/big0/242/Netherlands_Houses_495346.jpg");
-  background-position: center center;
-  background-size: cover;
-  position: relative;
-}
-
-.portfolio::before{
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.2);
-}
-
 .portfolio #portfolio-flters {
   padding: 0;
-  margin: 0 auto auto auto;
+  margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
-  background: rgba(255, 255, 255, 0.575);
+  background: white;
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -979,17 +962,17 @@ section {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1;
-  color: #000000;
+  text-transform: uppercase;
+  color: #444444;
   margin-bottom: 10px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #00ffea;
-  font-size: 20px;
+  color: #85b0be;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -997,7 +980,7 @@ section {
 }
 
 .portfolio .portfolio-item {
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 
 .portfolio .portfolio-item .portfolio-info {
@@ -1005,20 +988,21 @@ section {
   position: absolute;
   left: 30px;
   right: 30px;
+  bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.568);
   padding: 15px;
 }
 
-.portfolio .portfolio-item .portfolio-info h5 {
+.portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
   color: #fff;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .portfolio .portfolio-item .portfolio-info p {
-  color: #000000;
+  color: #fff;
   font-size: 14px;
   margin-bottom: 0;
 }
@@ -1028,11 +1012,11 @@ section {
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #000000;
+  color: #fff;
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #00ffea;
+  color: #0e8cb6;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1089,7 +1073,6 @@ section {
 .contact .info-wrap {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  
 }
 
 .contact .info i {
@@ -1231,6 +1214,17 @@ section {
   }
 }
 
+
+/*-------------------------------------------------------------
+# Projects
+--------------------------------------------------------------*/
+
+.portfolio .pook {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1328,6 +1322,8 @@ div.desc {
 # Footer
 --------------------------------------------------------------*/
 #footer {
+  width: 100%;
+  height: auto;
   background: url("../img/bg2.jpg") top center no-repeat;
   color: #fff;
   font-size: 14px;
@@ -1341,7 +1337,7 @@ div.desc {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(1, 11, 16, 0.486);
+  background: rgba(1, 11, 16, 0.5);
   z-index: 1;
 }
 
@@ -1484,12 +1480,14 @@ div.desc {
 
 .badges .badge-link {
   display: block;
-  margin-top: 15px;
+  margin-top: 25px;
   margin-bottom: 15px;
 }
 
 .badges .badge-link:last-child {
-  margin-bottom: 0;
+  margin-bottom: 15px;
+  align-content: center;
+  justify-content: center;
 }
 
 .badges .badge-link img {
