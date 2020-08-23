@@ -254,17 +254,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav {
   position: fixed;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
+  top: 75px;
+  right: 20px;
+  bottom: 95px;
+  left: 20px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: rgba(0, 0, 0, 0.822);
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 10px 0;
 }
 
@@ -277,9 +277,11 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #000000;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
   padding: 10px 20px;
-  font-weight: 500;
+  font-weight: 300;
   outline: none;
 }
 
@@ -437,28 +439,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
   }
   #hero {
-    height: 50vh;
+    height: 60vh;
   }
 
   #hero .btn-get-started {
     padding: 5px 20px;
     font-size: small;
-  }
-
-  #hero .hero-container .social-links {
-    margin-top: 10px;
-  }
-
-  #hero .hero-container .social-links a {
-    font-size: small;
-    padding: 8px 0;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-  }
-  .cc-profile-image img {
-    height: 90px;
-    width: 90px;
   }
 }
 
