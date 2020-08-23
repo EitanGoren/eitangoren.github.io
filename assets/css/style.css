@@ -845,16 +845,22 @@ section {
   border-radius: 0;
   width: 110px;
   height: auto;
+  background: transparent;
 }
 
 .featured .card {
   border: 0;
-  text-align: ceneter;
+  text-align: center;
+  background: transparent;
 }
 
 .featured .card-body {
   -moz-text-align-last: center;
   text-align-last: center;
+  background: transparent;
+}
+
+.featured .card-img-top{
   background: transparent;
 }
 
@@ -875,6 +881,15 @@ section {
 .featured .btn:hover {
   background-color: #85b0be;
   color: #fff;
+}
+
+@media (max-width: 900px){
+  .featured img {
+    border-radius: 0;
+    width: 70px;
+    height: auto;
+    background: transparent;
+  }
 }
 
 /*--------------------------------------------------------------
