@@ -1649,12 +1649,13 @@ div.desc {
 
 @media(max-width:900px){
   #hero .hero-container .social-links a {
-    font-size: 20px;
+    font-size: 24px;
     background: #ffffff85;
     color: #000000;
     padding: 5px;
-    width: 32px;
-    height: 32px;
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
   }
   #hero .hero-container .social-links {
     margin-top: 15px;
