@@ -435,7 +435,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 900px) {
 
   #hero h1 {
-    font-size: 28px;
+    font-size: 32px;
     line-height: 95px;
   }
 
@@ -455,10 +455,9 @@ h1, h2, h3, h4, h5, h6 {
 
   #hero .btn-get-started {
     padding: 5px 20px;
-    font-size: small;
+    font-size: medium;
   }
 }
-
 
 /*--------------------------------------------------------------
 # Info Section
