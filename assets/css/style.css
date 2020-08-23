@@ -939,9 +939,9 @@ section {
   color: #fff;
 }
 
-@mobile(max-width : 900px){
+@media(max-width : 900px){
   .featured img {
-    width: 90px;
+    width: 95px;
     height: auto;
   }
 }
@@ -1468,6 +1468,13 @@ div.desc {
 #video .video-top iframe{
   width: 100%;
   height: 550px;
+}
+
+@media(max-width:900px){
+  #video .video-top iframe{
+    width: 100%;
+    height: 270px;
+  }
 }
 
 /*--------------------------------------------------------------
