@@ -450,7 +450,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #hero {
-    height: 60vh;
+    height: 40vh;
   }
 
   #hero .btn-get-started {
@@ -532,7 +532,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
   #info{
-    height: 42vh; 
+    height: 30vh; 
   }
   #info .info-container {
     margin-top: 25px;
@@ -941,7 +941,7 @@ section {
 
 @media(max-width : 900px){
   .featured img {
-    width: 95px;
+    width: 100px;
     height: auto;
   }
 }
