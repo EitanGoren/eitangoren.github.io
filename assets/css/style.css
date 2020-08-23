@@ -529,7 +529,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -554,11 +554,12 @@ section {
 .section-title-black {
   text-align: center;
   padding-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .section-title-black h2 {
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 32px;
+  font-weight: 450;
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
@@ -843,7 +844,7 @@ section {
 --------------------------------------------------------------*/
 .featured img {
   border-radius: 0;
-  width: 140px;
+  width: 150px;
   height: auto;
   background: transparent;
 }
@@ -893,7 +894,7 @@ section {
 @media (max-width: 900px){
   .featured img {
     border-radius: 0;
-    width: 70px;
+    width: 85px;
     height: auto;
     background: transparent;
   }
@@ -1407,8 +1408,9 @@ div.desc {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
 #footer {
-  width: 100%;
+  width: auto;
   height: auto;
   background: url("../img/bg2.jpg") top center no-repeat;
   color: #fff;
@@ -1423,7 +1425,7 @@ div.desc {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(1, 11, 16, 0.5);
+  background: rgba(1, 11, 16, 0.336);
   z-index: 1;
 }
 
@@ -1431,27 +1433,25 @@ div.desc {
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: 40px 0;
+  padding: 25px 0;
 }
 
 #footer .footer-top h3 {
-  font-size: 36px;
-  font-weight: 350;
-  color: #fff;
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  padding-bottom: 5;
-  margin-bottom: 15;
-}
-
-#footer .footer-top h4 {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 250;
   color: #fff;
   position: relative;
-  font-family: "Poppins", sans-serif;
-  padding-bottom: 5;
-  margin-bottom: 15;
+  font-family: 'Courgette', cursive;
+  margin-bottom: 10;
+}
+
+#footer .footer-top h5 {
+  font-size: 22px;
+  font-weight: 150;
+  color: #fff;
+  position: relative;
+  font-family: 'Courgette', cursive;
+  margin-bottom: 10;
 }
 
 #footer .footer-top p {
@@ -1503,11 +1503,11 @@ div.desc {
 }
 
 #footer .footer-top .social-links {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 #hero .hero-container .social-links {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 #hero .hero-container .social-links a {
@@ -1530,13 +1530,12 @@ div.desc {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 23px;
+  font-size: 28px;
   display: inline-block;
-  background: #ffffffd3;
+  background: #ffffffb0;
   color: #000000;
   line-height: 1;
-  padding: 10px 0;
-  margin-right: 4px;
+  padding-top: 7px;
   border-radius: 50%;
   text-align: center;
   width: 42px;
@@ -1552,7 +1551,7 @@ div.desc {
 #footer .footer-bottom {
   z-index: 2;
   position: relative;
-  padding-bottom: 40px;
+  padding-bottom: 25px;
   text-align: center;
 }
 
