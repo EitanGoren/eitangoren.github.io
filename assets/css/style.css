@@ -343,7 +343,7 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  max-width: 100%;
+  width: 100%;
   height: 69vh;
   background: url("https://wallpaperaccess.com/full/1430408.jpg") top center;
   background-size: cover;
@@ -426,21 +426,42 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   #hero h1 {
-    font-size: 32px;
+    font-size: 24px;
     line-height: 36px;
   }
   #hero h2 {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   #hero {
-    max-width: 100%;
-    height: 70vh;
+    height: 50vh;
+  }
+
+  #hero .btn-get-started {
+    padding: 5px 20px;
+    font-size: small;
+  }
+
+  #hero .hero-container .social-links {
+    margin-top: 10px;
+  }
+
+  #hero .hero-container .social-links a {
+    font-size: small;
+    padding: 8px 0;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+  }
+  .cc-profile-image img {
+    height: 90px;
+    width: 90px;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Info Section
@@ -1512,7 +1533,7 @@ div.desc {
 }
 
 #hero .hero-container .social-links {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 #hero .hero-container .social-links a {
