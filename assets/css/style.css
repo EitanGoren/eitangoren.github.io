@@ -1593,7 +1593,7 @@ div.desc {
 }
 
 #hero .hero-container .social-links {
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 #hero .hero-container .social-links a {
@@ -1602,11 +1602,12 @@ div.desc {
   background: #0000006b;
   color: #ffffff;
   line-height: 1;
-  padding: 12px 0;
+  padding-top: 10px;
+  padding-right: 1px;
   border-radius: 50%;
   text-align: center;
-  width: 52px;
-  height: 52px;
+  width: 48px;
+  height: 48px;
   transition: 0.3s;
 }
 
@@ -1654,6 +1655,9 @@ div.desc {
     padding: 5px;
     width: 32px;
     height: 32px;
+  }
+  #hero .hero-container .social-links {
+    margin-top: 15px;
   }
 }
 
