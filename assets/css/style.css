@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 20px;
   z-index: 9999;
   overflow-y: auto;
-  background: rgba(0, 0, 0, 0.815);
+  background: rgba(0, 0, 0, 0.822);
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -326,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(255, 255, 255, 0.342);
+  background: rgba(255, 255, 255, 0.534);
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
@@ -350,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70vh;
+  height: 69vh;
   background: url("https://wallpaperaccess.com/full/1430408.jpg") top center;
   background-size: cover;
   position: relative;
@@ -433,18 +433,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 900px) {
+
   #hero h1 {
     font-size: 28px;
-    margin-top: 65px;
-    margin-left: 10px;
+    line-height: 95px;
   }
+
   #hero h2 {
-    font-size: 20px;
-    line-height: 24px;
-    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 5px;
+    margin-top: 0px;
   }
+
+  #hero .hero-container {
+    margin-top: 20px;
+  }
+
   #hero {
-    height: 50vh;
+    height: 60vh;
   }
 
   #hero .btn-get-started {
@@ -517,19 +523,19 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #info h1 {
-    font-size: 38px;
-    line-height: 6px;
+    font-size: 44px;
+    line-height: 36px;
   }
   #info h2 {
     font-size: 26px;
-    line-height: 32px;
-  }
-  #info .info-container {
-    margin-top: 30px;
+    line-height: 24px;
+    margin-bottom: 30px;
   }
   #info{
-    width: 100%;
-    height: 40vh;
+    height: 42vh; 
+  }
+  #info .info-container {
+    margin-top: 25px;
   }
 }
 
@@ -661,6 +667,16 @@ section {
   margin-bottom: 0;
 }
 
+@media(max-width: 900px){
+  .about .content h1 {
+    
+    font-size: 42px;
+
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+}
+
 /*--------------------------------------------------------------
 # profile-image
 ---------------------------------------------------------------*/
@@ -784,11 +800,13 @@ section {
     width: 80px;
     border: 5px solid transparent;
     margin-top: 50px;
+    margin-right: 10px;
   }
   
   .cc-profile-image a:before {
     border: 5px solid transparent;
   }
+}
 
 /*--------------------------------------------------------------
 # App-image
@@ -921,12 +939,10 @@ section {
   color: #fff;
 }
 
-@media (max-width: 900px){
+@mobile(max-width : 900px){
   .featured img {
-    border-radius: 0;
-    width: 85px;
+    width: 90px;
     height: auto;
-    background: transparent;
   }
 }
 
@@ -1396,9 +1412,11 @@ div.desc {
 }
 
 @media (max-width: 900px) {
+  
   .portfolio-details .portfolio-info {
     padding-top: 20px;
   }
+
   div.gallery-trip {
     width: auto;
     height: auto;
@@ -1408,6 +1426,18 @@ div.desc {
   div.gallery-trip img {
     margin: auto;
     height: auto;
+    border-radius: 4%;
+  }
+  
+  div.gallery {
+    width: 75%;
+    height: auto;
+    margin: auto;
+    padding-top: 25px;
+  }
+  div.gallery img{
+    width: 75%;
+    margin: auto;
     border-radius: 4%;
   }
 
@@ -1447,7 +1477,8 @@ div.desc {
 #footer {
   width: auto;
   height: auto;
-  background: url("../img/bg2.jpg") top center no-repeat;
+  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background-size: cover;
   color: #fff;
   font-size: 14px;
   position: relative;
@@ -1597,12 +1628,12 @@ div.desc {
 
 @media(max-width:900px){
   #hero .hero-container .social-links a {
-    width: 34px;
-    height: 34px;
-    font-size: 23px;
-    padding-top: 5px;
-    background: #ffffff9f;
+    font-size: 20px;
+    background: #ffffff85;
     color: #000000;
+    padding: 5px;
+    width: 32px;
+    height: 32px;
   }
 }
 
@@ -1621,7 +1652,10 @@ div.desc {
 }
 
 .badges .badge-link img {
-  height: 50px;
+  height: 52px;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
 }
 
 /*--------------------------------------------------------------
