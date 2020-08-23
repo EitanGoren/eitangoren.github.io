@@ -970,7 +970,6 @@ section {
 .testimonials .testimonial-item {
   text-align: center;
   color: #000000;
-  background: #ffffff9f;
   padding: 20px;
 }
 
@@ -1013,9 +1012,11 @@ section {
 }
 
 .testimonials .testimonial-item p {
-  font-style: italic;
+  font-family: "Raleway", sans-serif ;
   margin: 0 auto 15px auto;
   color: #000000;
+  background: #ffffff9f;
+  padding: 25px;
 }
 
 .testimonials .owl-nav, .testimonials .owl-dots {
@@ -1468,7 +1469,7 @@ div.desc {
 #video {
   width: 100%;
   height: 100%;
-  align-content: center;
+  margin: auto;
   position: relative;
 }
 
@@ -1480,7 +1481,14 @@ div.desc {
 
 #video .video-top iframe{
   width: 100%;
-  height: 550px;
+  height: 500px;
+}
+
+@media(min-width:1000px){
+  #video {
+    padding-right: 230px;
+    padding-left: 230px;
+  }
 }
 
 @media(max-width:900px){
