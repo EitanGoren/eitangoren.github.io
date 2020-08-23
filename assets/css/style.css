@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 75px;
   right: 20px;
-  bottom: 95px;
+  bottom: 80px;
   left: 20px;
   z-index: 9999;
   overflow-y: auto;
@@ -446,7 +446,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #hero .hero-container {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   #hero {
@@ -532,7 +532,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
   #info{
-    height: 30vh; 
+    height: 33vh; 
   }
   #info .info-container {
     margin-top: 25px;
@@ -669,12 +669,21 @@ section {
 
 @media(max-width: 900px){
   .about .content h1 {
-    
-    font-size: 42px;
-
-    margin-bottom: 10px;
-    margin-top: 15px;
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: center;
   }
+
+  .about .content h2 {
+    font-size: 25px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .about .content h3 {
+    font-size: 20px;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -1415,6 +1424,10 @@ div.desc {
   
   .portfolio-details .portfolio-info {
     padding-top: 20px;
+  }
+
+  .portfolio-details .portfolio-info h5 {
+    font-size: 18px;
   }
 
   div.gallery-trip {
