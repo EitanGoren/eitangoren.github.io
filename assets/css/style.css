@@ -843,7 +843,7 @@ section {
 --------------------------------------------------------------*/
 .featured img {
   border-radius: 0;
-  width: 110px;
+  width: 140px;
   height: auto;
   background: transparent;
 }
@@ -862,12 +862,19 @@ section {
 
 .featured .card-img-top{
   background: transparent;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .featured .card-title a {
   font-weight: 600;
   font-size: 18px;
   color: #052c3f;
+}
+
+.featured .tech-container{
+  align-content: center;
+  margin: auto;
 }
 
 .featured .btn {
