@@ -1276,6 +1276,14 @@ div.gallery-trip {
   width: 650px;
   height: 500px;
   margin: auto;
+  margin-bottom: 40px;
+}
+
+div.gallery-trip p{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 div.gallery-trip img {
