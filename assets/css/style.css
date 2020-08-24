@@ -1711,6 +1711,48 @@ div.desc {
 /*
 *
 * =====================
+* ABOUT
+* =====================
+*
+*/
+.about-section .skill-item {
+  margin-bottom: 20px;
+}
+
+.about-section .progress-title {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.about-section .progress {
+  height: 30px;
+  border-radius: 0;
+}
+
+.about-section .progress .progress-bar {
+  background: #429244;
+}
+
+.about-section .progress .progress-bar-skill1 {
+  background: #78c27a;
+}
+
+.about-section .progress .progress-bar-skill2 {
+  background: #66ba69;
+}
+
+.about-section .progress .progress-bar-skill3 {
+  background: #55b257;
+}
+
+.about-section .progress .progress-bar-skill4 {
+  background: #4aa44c;
+}
+
+/*
+*
+* =====================
 * SHOWCASE
 * =====================
 *
