@@ -98,7 +98,8 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   margin-right: 10px;
   margin-left: 15px;
-  max-height: 35px;
+  height: 35px;
+  margin-bottom: 5px;
   width: 35px;
   height: auto;
 }
@@ -1589,35 +1590,11 @@ div.desc {
   margin-top: 20px;
 }
 
-#hero .hero-container .social-links {
-  margin-top: 25px;
-}
-
-#hero .hero-container .social-links a {
-  font-size: 30px;
-  display: inline-block;
-  background: #0000006b;
-  color: #ffffff;
-  line-height: 1;
-  padding-top: 10px;
-  padding-right: 1px;
-  border-radius: 50%;
-  text-align: center;
-  width: 48px;
-  height: 48px;
-  transition: 0.3s;
-}
-
-#hero .hero-container .social-links a:hover {
-  color: #00ffea;
-  text-decoration: none;
-}
-
 #footer .footer-top .social-links a {
   font-size: 28px;
   display: inline-block;
-  background: #00ffea7a;
-  color: #fff;
+  background: #000000;
+  color: #ffffffc9;
   line-height: 1;
   padding-top: 7px;
   border-radius: 50%;
@@ -1629,7 +1606,7 @@ div.desc {
 }
 
 #footer .footer-top .social-links a:hover {
-  color: #000000;
+  color: #00ffea;
   text-decoration: none;
 }
 
@@ -1643,6 +1620,13 @@ div.desc {
 #footer .credits {
   text-align: center;
   font-size: 13px;
+  color: #000000;
+}
+
+#footer .credits a{
+  text-align: center;
+  font-size: 13px;
+  color: #000000;
 }
 
 @media(max-width:900px){
