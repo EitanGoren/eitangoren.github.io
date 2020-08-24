@@ -390,10 +390,10 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   display: inline-block;
   width: 50px;
   height: 50px;
-  color: rgb(0, 0, 0);
+  color: #fff;
   line-height: 50px;
   border-radius: 25px;
-  border: solid 1px rgb(0, 0, 0);
+  border: solid 1px #fff;
 }
 
 .statistics-section h5 {
