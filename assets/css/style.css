@@ -55,6 +55,8 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top i:hover {
   background: #fff;
   color: #00000079;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
 }
 
 /*--------------------------------------------------------------
@@ -170,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   padding: 10px 0;
   background: rgba(255, 255, 255, 0.795);
-  box-shadow: 0px 0px 30px #000000;
+  box-shadow: 0 0 10px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
   transition: ease all 0.3s;
 }
 
@@ -426,6 +428,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration-color: #00ffea;
   border: 2px solid #00ffea;
   color: #00ffea;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 
 @media (min-width: 1024px) {
@@ -466,15 +469,12 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #info {
   width: 100%;
-  height: 55vh;
-  background: url("https://www.expatica.com/app/uploads/sites/4/2014/05/shopping-guide-to-Belgium-1920x1080.jpg") top center;
-  background-size: cover;
+  height: 65vh;
   position: relative;
 }
 
 #info:before {
   content: "";
-  background: rgba(0, 0, 0, 0.39);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -610,13 +610,13 @@ section {
 --------------------------------------------------------------*/
 
 .main{
-  background: url("../img/myphotos/19951.jpg") ;
+  background: url("../img/myphotos/wave2.png") ;
   background-position: center;
   background-size: cover;
 }
 
 .shopik-main{
-  background: url("../img/myphotos/19951.jpg") ;
+  background: url("../img/myphotos/wave9.png") ;
   background-position: center;
   background-size: cover;
 }
@@ -1057,6 +1057,7 @@ section {
 #portfolio{
   background: rgba(255, 255, 255, 0);
 }
+
 .portfolio #portfolio-flters {
   margin: 15px auto 15px auto;
   list-style: none;
@@ -1182,7 +1183,7 @@ section {
 }
 
 .contact .info-wrap {
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.699);
+  box-shadow: 0 0 10px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
   padding: 20px;
 }
 
@@ -1216,13 +1217,14 @@ section {
 
 .contact .info:hover i {
   color: #00ffea;
+  
 }
 
 .contact .php-email-form {
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.425);
+  box-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 30px #00ffea;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.445);
+  background: rgba(14, 14, 14, 0.425);
 }
 
 .contact .php-email-form .form-group {
@@ -1281,7 +1283,7 @@ section {
 
 .contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
-  box-shadow: none;
+  box-shadow: 0 0 1px #000000,0 0 1px #000000,0 0 1px #000000;
   font-size: 14px;
 }
 
@@ -1294,18 +1296,26 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: rgba(255, 255, 255, 0);
-  border: 1;
-  padding: 10px 24px;
-  color: #000000;
-  border-color: #000000;
-  transition: 0.4s;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px;
   border-radius: 4px;
+  transition: 0.5s;
+  border: 2px solid #ffffff;
+  color: rgb(255, 255, 255);
+  background: transparent;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
+  background: #0000007e;
+  text-decoration-color: #00ffea;
+  border: 2px solid #00ffea;
   color: #00ffea;
-  border-color: #00ffea;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1485,7 +1495,7 @@ div.desc {
   height: 500px;
 }
 
-@media(min-width:1000px){
+@media(min-width:901px){
   #video {
     padding-right: 230px;
     padding-left: 230px;
@@ -1608,6 +1618,7 @@ div.desc {
 #footer .footer-top .social-links a:hover {
   color: #00ffea;
   text-decoration: none;
+  box-shadow: 0 0 10px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
 }
 
 #footer .footer-bottom {
@@ -1717,37 +1728,41 @@ div.desc {
 */
 .about-section .skill-item {
   margin-bottom: 20px;
+  font-size: medium;
+  color: #000000;
 }
 
 .about-section .progress-title {
-  font-weight: 300;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  font-size: medium;
+  color: #000000;
 }
 
 .about-section .progress {
-  height: 30px;
-  border-radius: 0;
+  height: 22px;
+  border-radius: 2px;
 }
 
 .about-section .progress .progress-bar {
-  background: #429244;
+  background: #000000;
 }
 
 .about-section .progress .progress-bar-skill1 {
-  background: #78c27a;
+  background: #70ce73;
 }
 
 .about-section .progress .progress-bar-skill2 {
-  background: #66ba69;
+  background: #5fb5ee;
 }
 
 .about-section .progress .progress-bar-skill3 {
-  background: #55b257;
+  background: #f38f8f;
 }
 
 .about-section .progress .progress-bar-skill4 {
-  background: #4aa44c;
+  background: #f7e78f;
 }
 
 /*
@@ -1801,8 +1816,8 @@ div.desc {
   list-style-type: none;
   font-family: "Roboto Slab", serif;
   margin-bottom: 30px;
-  border-top: solid 1px #429244;
-  border-bottom: solid 1px #429244;
+  border-top: solid 1px #00ffea;
+  border-bottom: solid 1px #000000;
   margin: 0 10px 20px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -1814,7 +1829,7 @@ div.desc {
   background: none;
   border: none;
   cursor: pointer;
-  color: #429244;
+  color: #000000;
   outline: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -1827,7 +1842,7 @@ div.desc {
 #filter li.active a, #filter li:hover a {
   color: #fff;
   text-decoration: none;
-  background: #429244;
+  background: #00ffea;
 }
 
 .reference {
