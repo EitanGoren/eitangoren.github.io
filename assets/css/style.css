@@ -1517,7 +1517,7 @@ div.desc {
 #video .video-top img{
   width:670px; 
   height: 875px;
-  margin-bottom: -95px;
+  margin-bottom: -105px;
 }
 
 .center {
@@ -1580,6 +1580,15 @@ div.desc {
   margin-bottom: 10;
 }
 
+.shopik-footer .main-h5 h5 {
+  font-size: 22px;
+  font-weight: 150;
+  color: #ffffff;
+  position: relative;
+  font-family: 'Courgette', cursive;
+  margin-bottom: 10;
+}
+
 .main-footer h5 {
   font-size: 22px;
   font-weight: 150;
@@ -1597,10 +1606,6 @@ div.desc {
 }
 
 #footer .footer-top .shopik-footer .social-links {
-  margin-top: 20px;
-}
-
-#footer .footer-top .main-footer .social-links {
   margin-top: 20px;
 }
 
@@ -1625,68 +1630,40 @@ div.desc {
   text-decoration: none;
 }
 
-.main-footer .social-links a {
-  font-size: 28px;
-  display: inline-block;
-  background: #000000;
-  color: #ffffffc9;
-  line-height: 1;
-  padding-top: 7px;
-  border-radius: 50%;
-  text-align: center;
-  width: 42px;
-  height: 42px;
-  transition: 0.3s;
-  margin-right: 12px;
-}
-
-.main-footer .social-links a:hover {
-  color: #e5ff00;
-  box-shadow: 0 0 10px #d0ff00, 0 0 40px #d0ff00, 0 0 80px #d0ff00;
-  text-decoration: none;
-}
-
-#footer .shopik-footer-bottom {
+#footer .footer-bottom {
   z-index: 2;
   position: relative;
   padding-bottom: 25px;
   text-align: center;
 }
 
-.shopik-footer-bottom .credits {
+.footer-bottom .credits {
   text-align: center;
   font-size: 13px;
   color: #ffffff;
 }
 
-.shopik-footer-bottom .copyright{
+.footer-bottom .copyright{
   color: #ffffff;
 }
 
-.shopik-footer-bottom .credits a{
+.footer-bottom .credits a{
   text-align: center;
   font-size: 13px;
   color: #ffffff;
 }
 
-#footer .main-footer-bottom {
-  z-index: 2;
-  position: relative;
-  padding-bottom: 25px;
-  text-align: center;
-}
-
-.main-footer-bottom .credits {
+.main-copyright .credits {
   text-align: center;
   font-size: 13px;
   color: #000000;
 }
 
-.main-footer-bottom .copyright {
+.main-copyright .copyright{
   color: #000000;
 }
 
-.main-footer-bottom .credits a{
+.main-copyright .credits a{
   text-align: center;
   font-size: 13px;
   color: #000000;
