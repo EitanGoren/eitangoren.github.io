@@ -34,6 +34,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Handlee&family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -67,12 +68,11 @@
 
       <nav id="navbar" class="nav-menu d-none d-lg-block">
         <ul>
-
-          <li class="nav-item"><a class="nav-link link-scroll" data-animate="fadeInDown" href="#header">Home</a></li>
-          <li class="nav-item"><a class="nav-link link-scroll" data-animate="fadeInDown" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link link-scroll" data-animate="fadeInDown" href="#references">My Work</a></li>
-          <li class="nav-item"><a class="nav-link link-scroll" data-animate="fadeInDown" href="#contact">Contact</a></li>
-          <li class="drop-down"><a class="nav-link link-scroll" data-animate="fadeInDown" href="">Projects</a>
+          <li class="nav-item"><a href="#header">Home</a></li>
+          <li class="nav-item"><a href="#about">About</a></li>
+          <li class="nav-item"><a href="#references">My Work</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
+          <li class="drop-down"><a href="">Projects</a>
             <ul>
               <li><a href="#">Web</a></li>
               <li><a href="#">C++</a></li>
@@ -131,7 +131,7 @@
           <div data-animate="fadeInUp" class="col-lg-6">
             <h5>
 
-              Hi, my name is Eitan. I am a computer science student based in Haifa.<br> 
+              Hi, my name is Eitan and I'm a computer science student based in Haifa.<br> 
               I love coding and learn new things.<br>
               My goal is to create something that will make people smile.<br><br>
 
@@ -174,9 +174,8 @@
       </div>
   </section>
 
-
-    <!-- ======= About Section ======= -->
-    <!--<section id="about" class="about">
+  <!-- ======= About Section ======= -->
+  <!--<section id="about" class="about">
       <div class="container">
 
         <div class="row content">
@@ -228,8 +227,8 @@
       </div>
     </section>--><!-- End About Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <!--  <section id="portfolio" class="portfolio">
+  <!-- ======= Portfolio Section ======= -->
+  <!--  <section id="portfolio" class="portfolio">
       <div class="container">
 
         <div class="section-title">
@@ -302,10 +301,10 @@
 
       </div> 
     </section>-->
-    <!-- End Portfolio Section -->
+  <!-- End Portfolio Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <!-- <section id="testimonials" class="testimonials">
+  <!-- ======= Testimonials Section ======= -->
+  <!-- <section id="testimonials" class="testimonials">
       <div class="container">
 
         <div class="section-title-black">
@@ -327,24 +326,31 @@
       </div> 
     </section> --> <!-- End Testimonials Section -->
 
-    <!-- ======= *** REFERENCES IMAGE *** ======= -->
-    <section id="references">
-          <div class="container">
-            <div class="col-sm-12">
-              <div class="mb-5 text-center">
-                <h2 data-animate="fadeInUp" class="title">My work</h2>
-                <p data-animate="fadeInUp" class="lead">I have worked on dozens of projects so I have picked only the latest for you.</p>
-              </div>
+  <!-- ======= *** REFERENCES IMAGE *** ======= -->
+  <section id="references" class="reference-pook">
+
+        <div class="container">
+
+          <div class="col-sm-12">
+            
+            <div class="mb-5 text-center" >
+              <h2 data-animate="fadeInUp" class="title">My work</h2>
+              <p data-animate="fadeInUp" class="lead">
+                I've worked on dozens of projects, <br>
+                So I've picked only the latest for you. </p>              
+            </div>
+
               <ul id="filter" data-animate="fadeInUp">
-                <li class="active"><a href="#" data-filter="all">All</a></li>
-                <li><a href="#" data-filter="android-java">Android Apps in Java</a></li>
+                <li class="active"><a href="#" data-filter="android-java"> Java </a></li>
                 <li><a href="#" data-filter="cpp">C++</a></li>
                 <li><a href="#" data-filter="other">Other</a></li>
               </ul>
+
               <div id="detail">
                 <div class="row">
                   <div class="col-lg-10 mx-auto"><span class="close">×</span>
-                    <div id="detail-slider" class="owl-carousel owl-theme"></div>
+                    <div id="detail-slider" class="owl-carousel owl-theme">
+                    </div>
                     <div class="text-center">
                       <h1 id="detail-title" class="title"></h1>
                     </div>
@@ -477,92 +483,94 @@
                       </div>
                 </div>
               </div>
-            </div>
+          
           </div>
-    </section>
-    <!-- REFERENCES IMAGEn -->
+        
+        </div>
+  </section>
+  <!-- REFERENCES IMAGE -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" data-animate="bounceIn" class="contact section-bg">
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" data-animate="bounceIn" class="contact section-bg">
 
+    <div class="container">
+      
+      <div class="section-title-black">
+        <h2>Contact Me</h2>
+        <h5> Feel free to send me a message </h5>
+      </div>
+
+      <div class="row mt-1 justify-content-center">
+
+        <div class="col-lg-7" >
+          <form action="https://formspree.io/eitangoren08@gmail.com" method="POST" role="form" class="php-email-form">
+            <div class="form-row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section><!-- End Contact Section -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      
       <div class="container">
-        
-        <div class="section-title-black">
-          <h2>Contact Me</h2>
-          <h5> Feel free to send me a message </h5>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h5>Find me on social media</h5>
+          </div>
         </div>
 
-        <div class="row mt-1 justify-content-center">
-
-          <div class="col-lg-7" >
-            <form action="https://formspree.io/eitangoren08@gmail.com" method="POST" role="form" class="php-email-form">
-              <div class="form-row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
+        <div class="social-links">
+          <a href="https://www.facebook.com/eitan.goren/" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/eitan.2020/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/eitan-g-97b39314b/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/EitanGoren" class="github"><i class="bx bxl-github"></i></a>
         </div>
 
       </div>
 
-    </section><!-- End Contact Section -->
+    </div>
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-
-      <div class="footer-top">
-        
-        <div class="container">
-  
-          <div class="row justify-content-center">
-            <div class="col-lg-6">
-              <h5>Find me on social media</h5>
-            </div>
-          </div>
-  
-          <div class="social-links">
-            <a href="https://www.facebook.com/eitan.goren/" class="facebook"><i class="bx bxl-facebook"></i></a>
-            <a href="https://www.instagram.com/eitan.2020/" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/eitan-g-97b39314b/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            <a href="https://github.com/EitanGoren" class="github"><i class="bx bxl-github"></i></a>
-          </div>
-
-        </div>
-  
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Eitan Goren</span></strong> 2020. All Rights Reserved
       </div>
-  
-      <div class="container footer-bottom clearfix">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Eitan Goren</span></strong> 2020. All Rights Reserved
-        </div>
-        <div class="credits">
-          Inspired by <a href="https://bootstrapmade.com/">BootstrapMade</a><br>
-          <a href='https://www.freepik.com/photos/background'>Background photo created by starline - www.freepik.com</a>
-        </div>
+      <div class="credits">
+        Inspired by <a href="https://bootstrapmade.com/">BootstrapMade</a><br>
+        <a href='https://www.freepik.com/photos/background'>Background photo created by starline - www.freepik.com</a>
       </div>
-    </footer><!-- End Footer -->
+    </div>
+  </footer><!-- End Footer -->
 
   </main><!-- End #main -->
 
