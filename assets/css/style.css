@@ -1591,27 +1591,9 @@ div.desc {
   margin-right: 12px;
 }
 
-#footer .footer-top .social-links .facebook a:hover {
-  color: #0026ff;
-  box-shadow: 0 0 10px #0026ff, 0 0 40px #0026ff, 0 0 80px #0026ff;
-  text-decoration: none;
-}
-
-#footer .footer-top .social-links .instagram a:hover {
-  color: #ffbb00;
-  box-shadow: 0 0 10px #ffbb00, 0 0 40px #ffbb00, 0 0 80px #ffbb00;
-  text-decoration: none;
-}
-
-#footer .footer-top .social-links .github a:hover {
-  color: #000000;
-  box-shadow: 0 0 10px #000000, 0 0 40px #000000, 0 0 80px #000000;
-  text-decoration: none;
-}
-
-#footer .footer-top .social-links .linkedin a:hover {
-  color: #0099ff;
-  box-shadow: 0 0 10px #0099ff, 0 0 40px #0099ff, 0 0 80px #0099ff;
+#footer .footer-top .social-links a:hover {
+  color: #00ffea;
+  box-shadow: 0 0 10px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
   text-decoration: none;
 }
 
