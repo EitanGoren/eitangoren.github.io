@@ -1495,33 +1495,28 @@ div.desc {
 
 #video {
   width: 100%;
-  height: 900px;
-  margin-bottom: 200px;
+  height: 850px;
+  margin-bottom: 180px;
   z-index: -1;
   align-items: center;
   position: relative;
   background: url("../img/shopik/phone1.png") no-repeat center;
+  background-size: 650px 780px;
 
 }
 
-#video .video-top {
-  padding-bottom: 25px;
-  padding-top: 25px;
-  padding: 0;
-}
+/*
+.featured .container video{
+  margin-bottom: -585px;
+  margin-left: 287px;
+}*/
 
-.featured .container iframe{
-  width: 322px;
-  height: 697px;
-  margin-bottom: -827px;
-  margin-left: 398px;
-}
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.featured .container video{
+  width: 306px;
+  height: 627px;
+  margin-bottom: -771px;
+  margin-left: 405px;
 }
 
 @media(min-width:901px){
