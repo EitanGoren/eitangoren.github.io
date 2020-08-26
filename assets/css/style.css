@@ -1780,8 +1780,9 @@ div.desc {
 }
 
 .about-section h5 {
-  font-size: 23px;
+  font-size: 22px;
   color: #000000;
+  font-weight: 300;
   font-family: 'Lato', sans-serif;
 }
 
