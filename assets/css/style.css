@@ -616,7 +616,7 @@ section {
 .section-title-black p {
   margin-bottom: 0;
   font-size: 22px;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Raleway", sans-serif;
   color: #000000;
 }
 
@@ -625,7 +625,7 @@ section {
 --------------------------------------------------------------*/
 
 .main{
-  background: url("../img/myphotos/wave2.png") ;
+  background: url("../img/bg8.png") ;
   background-position: center;
   background-size: cover;
 }
