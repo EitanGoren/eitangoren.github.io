@@ -432,11 +432,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #0000007e;
-  text-decoration-color: #00ffea;
+  background: #ffffff7e;
   border: 2px solid #00ffea;
   color: #00ffea;
-  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  box-shadow: 0 0 10px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
 }
 
 @media (min-width: 1024px) {
@@ -1571,7 +1570,7 @@ div.desc {
   margin-bottom: 10;
 }
 
-.shopik-footer h5 {
+.footer .shopik-h5 h5 {
   font-size: 22px;
   font-weight: 150;
   color: #ffffff;
@@ -1580,16 +1579,7 @@ div.desc {
   margin-bottom: 10;
 }
 
-.shopik-footer .main-h5 h5 {
-  font-size: 22px;
-  font-weight: 150;
-  color: #ffffff;
-  position: relative;
-  font-family: 'Courgette', cursive;
-  margin-bottom: 10;
-}
-
-.main-footer h5 {
+.footer .main-h5 h5 {
   font-size: 22px;
   font-weight: 150;
   color: #000000;
@@ -1605,11 +1595,11 @@ div.desc {
   padding: 0;
 }
 
-#footer .footer-top .shopik-footer .social-links {
+#footer .footer-top .footer .social-links {
   margin-top: 20px;
 }
 
-.shopik-footer .social-links a {
+.footer .social-links a {
   font-size: 28px;
   display: inline-block;
   background: #ffffffc9;
@@ -1618,14 +1608,16 @@ div.desc {
   padding-top: 7px;
   border-radius: 50%;
   text-align: center;
+  border: 0.5px solid #000000;
   width: 42px;
   height: 42px;
   transition: 0.3s;
   margin-right: 12px;
 }
 
-.shopik-footer .social-links a:hover {
+.footer .social-links a:hover {
   color: #00ffea;
+  border: none;
   box-shadow: 0 0 10px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
   text-decoration: none;
 }
@@ -1777,6 +1769,10 @@ div.desc {
 
 .about-section .progress .progress-bar-skill4 {
   background: #f7e78f;
+}
+
+.about-section .progress .progress-bar-skill5 {
+  background: #ee8ff7;
 }
 
 .about-section h2 {
