@@ -538,7 +538,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   #info h2 {
-    font-size: 45px;
+    font-size: 39px;
     line-height: 55px;
   }
 
@@ -1524,10 +1524,11 @@ div.desc {
   width: 100%;
 }
 
-@media(max-width:900px){
+@media(max-width:950px){
   #video {
-    margin-bottom: 260px;
+    margin-bottom: 270px;
   }
+
 }
 
 /*--------------------------------------------------------------
