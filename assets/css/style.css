@@ -477,11 +477,41 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 12px;
 }
 
-#hero .social-links-hero a:hover {
-  color: #00ffea;
-  border:  0.5px solid #00ffea;
-  box-shadow: 0 0 10px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
-  text-decoration: none;
+#hero .social-links-hero .facebook {
+  color: #000000;
+  border: 0.5px solid #35a4ff;
+}
+#hero .social-links-hero .facebook:hover {
+  color: #35a4ff;
+  border: 0.5px solid #35a4ff;
+  box-shadow: 0 0 10px #35a4ff, 0 0 40px #35a4ff, 0 0 80px #35a4ff;
+}
+#hero .social-links-hero .instagram {
+  color: #000000;
+  border: 0.5px solid #ffa600;
+}
+#hero .social-links-hero .instagram:hover {
+  color: #ffa600;
+  border: 0.5px solid #ffa600;
+  box-shadow: 0 0 10px #ffa600, 0 0 40px #ffa600, 0 0 80px #ffa600;
+}
+#hero .social-links-hero .linkedin {
+  color: #000000;
+  border: 0.5px solid #00ccff;
+}
+#hero .social-links-hero .linkedin:hover {
+  color: #00ccff;
+  border: 0.5px solid #00ccff;
+  box-shadow: 0 0 10px #00ccff, 0 0 40px #00ccff, 0 0 80px #00ccff;
+}
+#hero .social-links-hero .github {
+  color: #000000;
+  border: 0.5px solid #ff71ff;
+}
+#hero .social-links-hero .github:hover {
+  color: #ff71ff;
+  border: 0.5px solid #ff71ff;
+  box-shadow: 0 0 10px #ff71ff, 0 0 40px #ff71ff, 0 0 80px #ff71ff;
 }
 
 @media (min-width: 1024px) {
@@ -1688,31 +1718,60 @@ div.desc {
   padding: 0;
 }
 
-#footer .footer-top .footer .social-links {
+#footer .footer-top .social-links {
   margin-top: 20px;
 }
 
-.footer .social-links a {
+#footer .social-links .facebook {
+  color: #000000;
+  border: 0.5px solid #000000;
+}
+#footer .social-links .facebook:hover {
+  color: #0077ff;
+  border: 0.5px solid #0077ff;
+  box-shadow: 0 0 10px #0077ff, 0 0 40px #0077ff, 0 0 80px #0077ff;
+}
+#footer .social-links .instagram {
+  color: #000000;
+  border: 0.5px solid #000000;
+}
+#footer .social-links .instagram:hover {
+  color: #ffa600;
+  border: 0.5px solid #ffa600;
+  box-shadow: 0 0 10px #ffa600, 0 0 40px #ffa600, 0 0 80px #ffa600;
+}
+#footer .social-links .linkedin {
+  color: #000000;
+  border: 0.5px solid #000000;
+}
+#footer .social-links .linkedin:hover {
+  color: #00ccff;
+  border: 0.5px solid #00ccff;
+  box-shadow: 0 0 10px #00ccff, 0 0 40px #00ccff, 0 0 80px #00ccff;
+}
+#footer .social-links .github {
+  color: #000000;
+  border: 0.5px solid #000000;
+}
+#footer .social-links .github:hover {
+  color: #ff71ff;
+  border: 0.5px solid #ff71ff;
+  box-shadow: 0 0 10px #ff71ff, 0 0 40px #ff71ff, 0 0 80px #ff71ff;
+}
+
+#footer .social-links a{
   font-size: 28px;
   display: inline-block;
-  background: #ffffffc9;
-  color: #000000;
+  background: #ffffff;
+  margin: 6px;
   line-height: 1;
-  padding-top: 7px;
+  padding-top: 6px;
   border-radius: 50%;
   text-align: center;
-  border: 0.5px solid #000000;
   width: 42px;
   height: 42px;
   transition: 0.3s;
   margin-right: 12px;
-}
-
-.footer .social-links a:hover {
-  color: #00ffea;
-  border:  0.5px solid #00ffea;
-  box-shadow: 0 0 10px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
-  text-decoration: none;
 }
 
 #footer .footer-bottom {
