@@ -362,7 +362,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 40px;
 }
 
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -1004,12 +1003,112 @@ section {
 /*--------------------------------------------------------------
 # Featured
 --------------------------------------------------------------*/
-.featured img {
+.featured .company-featured img {
+  border-radius: 0;
+  width: 110px;
+  height: auto;
+  background: transparent;
+}
+/*
+.featured .company-featured .aldo img {
+  border-radius: 0;
+  width: auto;
+  height: 168px;
+  background: transparent;
+}
+
+.featured .company-featured .renuar img {
+  border-radius: 0;
+  width: auto;
+  height: 15px;
+  background: transparent;
+}
+
+.featured .company-featured .tx img {
+  border-radius: 0;
+  width: 150px;
+  height: 44px;
+  background: transparent;
+}
+
+.featured .company-featured .tfs img {
+  border-radius: 0;
+  width: 210px;
+  height: auto;
+  background: transparent;
+}
+
+.featured .company-featured .hoodies img {
+  border-radius: 0;
+  width: auto;
+  height: 43px;
+  background: transparent;
+}
+*/
+
+.featured .company-featured .renuar img {
+  border-radius: 0;
+  width: auto;
+  height: 12px;
+  background: transparent;
+}
+
+.featured .company-featured .tx img {
+  border-radius: 0;
+  width: 115px;
+  height: 30px;
+  background: transparent;
+}
+
+.featured .company-featured .tfs img {
+  border-radius: 0;
+  width: 165px;
+  height: auto;
+  background: transparent;
+}
+
+.featured .tech-featured img{
   border-radius: 0;
   width: 145px;
   height: auto;
   background: transparent;
 }
+
+.featured .tech-featured .firebase-img img{
+  border-radius: 0;
+  width: 165px;
+  height: auto;
+  background: transparent;
+}
+
+.featured .tech-featured .android-img img{
+  border-radius: 0;
+  width: auto;
+  height: 25px;
+  background: transparent;
+}
+
+.featured .tech-featured .java-img img{
+  border-radius: 0;
+  width: auto;
+  height: 70px;
+  background: transparent;
+}
+
+.featured .tech-featured .html-img img{
+  border-radius: 0;
+  width: 40px;
+  height: auto;
+  background: transparent;
+}
+
+.featured .tech-featured .css-img img{
+  border-radius: 0;
+  width: 40px;
+  height: auto;
+  background: transparent;
+}
+
 
 .featured p{
   border-top: none;

@@ -28,6 +28,8 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -146,50 +148,104 @@
         <div class="container">
         
           <div class="col-lg-4 center"> <h2>Companies</h2> </div>
-          <p>Currently Containing Items From These Sellers</p>
-         
-          <div class="row tech-container">
+          <p> Currently Containing Items From These Sellers </p>
+         <!--
+          <div class="row tech-container company-featured">
   
               <div class="d-flex align-items-center mb-5 mb-lg-0">
-                <div class="card">
+                <div class="card asos">
                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Asos.svg/1200px-Asos.svg.png" class="card-img-top" alt="...">
                 </div>
               </div>
     
               <div class="d-flex align-items-center mb-5 mb-lg-0">
-                <div class="card">
+                <div class="card aldo" >
                   <img src="https://www.lapalmera.com/wp-content/uploads/2018/07/aldo.png" class="card-img-top" alt="...">
                 </div>
               </div>
     
               <div class="d-flex align-items-center mb-5 mb-lg-0">
-                <div class="card">
+                <div class="card castro">
                   <img src="https://upload.wikimedia.org/wikipedia/he/thumb/4/41/CastroBlack_Logo.svg/1200px-CastroBlack_Logo.svg.png" class="card-img-top" alt="...">
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center mb-5 mb-lg-0">
+                <div class="card hoodies">
+                  <img src="https://lh3.googleusercontent.com/proxy/6ocYHUKeMa-EkbiHujyuClCWD42LMd-k9C3KEF0I2IWkbFmzf3c-_dxwzKN67cUCsoKpA_KE6RFFHArV020YS1457kqx8HTQwc316Rig8eA" class="card-img-top" alt="...">
                 </div>
               </div>
     
               <div class="d-flex align-items-center mb-5 mb-lg-0">
-                <div class="card">
+                <div class="card renuar">
                   <img src="https://www.renuar.co.il/skin/frontend/customtheme/default/images/logo-mobile.png" class="card-img-top" alt="...">
                 </div>
               </div>
     
               <div class="d-flex align-items-center mb-5 mb-lg-0">
-                <div class="card">
+                <div class="card tx">
                   <img src="https://media.terminalx.com/pub/media/logo/stores/0/logo.png" class="card-img-top" alt="...">
                 </div>
               </div>
     
               <div class="d-flex align-items-center mb-5 mb-lg-0">
-                <div class="card">
+                <div class="card tfs">
                   <img src="https://b-digital.co.il/wp-content/uploads/2018/10/logo_twentyforseven.png" class="card-img-top" alt="...">
                 </div>
               </div>
     
-          </div>
-  
-        </div>
+          </div> -->
+
+          <marquee id="companies-marquee" behavior="scroll" scrollamount="12">
+
+              <div class="row tech-container company-featured">
+
+              <div class="d-flex align-items-center mb-1 mb-lg-0">
+                <div class="card asos">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Asos.svg/1200px-Asos.svg.png" class="card-img-top" alt="...">
+                </div>
+              </div>
+    
+              <div class="d-flex align-items-center mb-1 mb-lg-0">
+                <div class="card aldo" >
+                  <img src="https://www.lapalmera.com/wp-content/uploads/2018/07/aldo.png" class="card-img-top" alt="...">
+                </div>
+              </div>
+    
+              <div class="d-flex align-items-center mb-1 mb-lg-0">
+                <div class="card castro">
+                  <img src="https://upload.wikimedia.org/wikipedia/he/thumb/4/41/CastroBlack_Logo.svg/1200px-CastroBlack_Logo.svg.png" class="card-img-top" alt="...">
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center mb-1 mb-lg-0">
+                <div class="card hoodies">
+                  <img src="https://lh3.googleusercontent.com/proxy/6ocYHUKeMa-EkbiHujyuClCWD42LMd-k9C3KEF0I2IWkbFmzf3c-_dxwzKN67cUCsoKpA_KE6RFFHArV020YS1457kqx8HTQwc316Rig8eA" class="card-img-top" alt="...">
+                </div>
+              </div>
+    
+              <div class="d-flex align-items-center mb-1 mb-lg-0">
+                <div class="card renuar">
+                  <img src="https://www.renuar.co.il/skin/frontend/customtheme/default/images/logo-mobile.png" class="card-img-top" alt="...">
+                </div>
+              </div>
+    
+              <div class="d-flex align-items-center mb-1 mb-lg-0">
+                <div class="card tx">
+                  <img src="https://media.terminalx.com/pub/media/logo/stores/0/logo.png" class="card-img-top" alt="...">
+                </div>
+              </div>
+    
+              <div class="d-flex align-items-center mb-1 mb-lg-0">
+                <div class="card tfs">
+                  <img src="https://b-digital.co.il/wp-content/uploads/2018/10/logo_twentyforseven.png" class="card-img-top" alt="...">
+                </div>
+              </div>
+              </div>
+          </marquee> 
       
+        </div>
+
       </section><!-- End Companies Section -->
 
     </div>
@@ -202,7 +258,7 @@
         <div class="col-lg-4 center"> <h2> Technology </h2> </div>
        <p>Experience and Knowledge Acheived In This Project</p>
        
-       <div class="row tech-container">
+       <div class="row tech-container tech-featured">
 
           <div class="d-flex align-items-center mb-5 mb-lg-0">
             <div class="card">
@@ -211,19 +267,19 @@
           </div>
 
           <div class="d-flex align-items-center mb-5 mb-lg-0">
-            <div class="card">
+            <div class="card android-img">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Android_new_logo_2019.svg/1200px-Android_new_logo_2019.svg.png" class="card-img-top" alt="...">
             </div>
           </div>
 
           <div class="d-flex align-items-center mb-5 mb-lg-0">
-            <div class="card">
-              <img src="https://www.userlogos.org/files/logos/mafi0z/java.png" class="card-img-top" alt="...">
+            <div class="card java-img">
+              <img src="https://img.pngio.com/java-logo-transparent-png-vector-clipart-psd-peoplepngcom-java-logo-transparent-700_430.png" class="card-img-top" alt="...">
             </div>
           </div>
 
           <div class="d-flex align-items-center mb-5 mb-lg-0">
-            <div class="card">
+            <div class="card firebase-img">
               <img src="assets/img/firebase.png" class="card-img-top" alt="...">
             </div>
           </div>
@@ -231,6 +287,18 @@
           <div class="d-flex align-items-center mb-5 mb-lg-0">
             <div class="card">
               <img src="https://miro.medium.com/max/5250/1*zZ_-f5n45vnjrQt2G3FIyg.png" class="card-img-top" alt="...">
+            </div>
+          </div>
+
+          <div class="d-flex align-items-center mb-5 mb-lg-0">
+            <div class="card html-img">
+              <img src="https://images.all-free-download.com/images/graphiclarge/html_5_vector_logo_148263.jpg" class="card-img-top" alt="...">
+            </div>
+          </div>
+
+          <div class="d-flex align-items-center mb-5 mb-lg-0">
+            <div class="card css-img">
+              <img src="https://appupgo.co.il/wp-content/uploads/2019/08/css3.png" class="card-img-top" alt="...">
             </div>
           </div>
 
@@ -309,6 +377,8 @@
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
