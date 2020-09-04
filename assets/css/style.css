@@ -1009,42 +1009,13 @@ section {
   height: auto;
   background: transparent;
 }
-/*
+
 .featured .company-featured .aldo img {
   border-radius: 0;
   width: auto;
-  height: 168px;
+  height: 118px;
   background: transparent;
 }
-
-.featured .company-featured .renuar img {
-  border-radius: 0;
-  width: auto;
-  height: 15px;
-  background: transparent;
-}
-
-.featured .company-featured .tx img {
-  border-radius: 0;
-  width: 150px;
-  height: 44px;
-  background: transparent;
-}
-
-.featured .company-featured .tfs img {
-  border-radius: 0;
-  width: 210px;
-  height: auto;
-  background: transparent;
-}
-
-.featured .company-featured .hoodies img {
-  border-radius: 0;
-  width: auto;
-  height: 43px;
-  background: transparent;
-}
-*/
 
 .featured .company-featured .renuar img {
   border-radius: 0;
@@ -1063,6 +1034,13 @@ section {
 .featured .company-featured .tfs img {
   border-radius: 0;
   width: 165px;
+  height: auto;
+  background: transparent;
+}
+
+.featured .company-featured .hoodies img {
+  border-radius: 0;
+  width: 112px;
   height: auto;
   background: transparent;
 }
