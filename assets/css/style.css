@@ -1039,6 +1039,15 @@ section {
   background: transparent;
 }
 
+.featured .company-featured .shein img {
+  border-radius: 0;
+  width: 125px;
+  height: auto;
+  margin-bottom: 4px;
+  margin-right: 12px;
+  background: transparent;
+}
+
 .featured .company-featured .tfs img {
   border-radius: 0;
   width: 155px;
