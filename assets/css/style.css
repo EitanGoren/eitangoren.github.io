@@ -1772,6 +1772,29 @@ div.desc {
   padding-bottom: 25px;
 }
 
+.footer-shopik .footer-center{
+  height:450px; 
+  width:auto; 
+  margin: 50px;
+  overflow:auto; 
+  align-items:center;
+  background-color:white; 
+  color:black; 
+  scrollbar-base-color:grey; 
+  font-family:sans-serif; 
+  padding:30px;
+}
+
+.footer-shopik .footer-center a {
+  color:black;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.footer-shopik .footer-center a:hover {
+  color:red;
+}
+
 #footer .footer-top {
   position: relative;
   z-index: 2;
