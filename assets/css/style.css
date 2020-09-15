@@ -1773,16 +1773,18 @@ div.desc {
 }
 
 .footer-shopik .footer-center{
-  height:450px; 
+  height:auto; 
   width:auto; 
   margin: 50px;
   overflow:auto; 
   align-items:center;
-  background-color:white; 
+  background-color:transparent; 
   color:black; 
   scrollbar-base-color:grey; 
   font-family:sans-serif; 
+  font-size:20px;
   padding:30px;
+  margin-bottom: 50px;
 }
 
 .footer-shopik .footer-center a {
