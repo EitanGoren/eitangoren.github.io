@@ -1778,7 +1778,7 @@ div.desc {
   margin: 50px;
   overflow:auto; 
   align-items:center;
-  background-color:#00000083; 
+  background-color:#0000008a; 
   color:white; 
   font-family:sans-serif; 
   font-size:20px;
@@ -1787,13 +1787,16 @@ div.desc {
 }
 
 .footer-shopik .footer-center a {
-  color:black;
+  color:#ffffff;
   padding: 10px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .footer-shopik .footer-center a:hover {
-  color:red;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20.1px;
+  text-shadow: 0 0 10px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
 }
 
 #footer .footer-top {
@@ -1939,6 +1942,33 @@ div.desc {
 
 .main-copyright .credits a:hover{
   color: #00ffea;
+}
+
+@media (max-width: 1024px){
+  
+  .footer-shopik .footer-center{
+    height:400px;
+    width:auto; 
+    margin: 20px;
+    overflow:auto; 
+    align-items:center;
+    background-color:#00000083; 
+    color:white; 
+    font-family:sans-serif; 
+    font-size:14px;
+    padding:15px;
+    margin-bottom: 30px;
+  }
+
+  .footer-shopik .footer-center a {
+    font-size: 15px;
+    font-weight: 450;
+  }
+  
+  .footer-shopik .footer-center a:hover {
+    text-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea;
+  }
+
 }
 
 
