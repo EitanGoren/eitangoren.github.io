@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   background: #ffffff00;
-  padding: 14px 0;
+  padding: 15px 0;
 }
 
 #header.header-transparent {
@@ -76,15 +76,15 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
   background: #000000cc;
-  padding: 10px 0;
+  padding: 11px 0;
 }
 
 #header .logo h1 {
-  font-size: 20px;
+  font-size: 24px;
   text-shadow: 0 0 10px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
-  margin: 4px;
+  margin: 5px;
   line-height: 1;
-  font-weight: 300;
+  font-weight: 350;
   letter-spacing: 0.1em;
 }
 
@@ -367,14 +367,14 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 85vh;
+  height: 100vh;
   background: url("https://ncube-digest.com/wp-content/uploads/2019/11/AI-Programming.png") top center;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
-  content: "";
+  content: "Welcome";
   background: rgba(0, 0, 0, 0.534);
   position: absolute;
   bottom: 0;
@@ -401,7 +401,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   bottom: 0;
   top: 0;
-  left: 10px;
+  left: 5px;
   right: 0;
   display: flex;
   justify-content: center;
@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h1 {
   margin-top: 46px;
   font-size: 56px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 56px;
   text-transform: uppercase;
   text-shadow: 0 0 10px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
@@ -425,9 +425,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h2 {
   color: #eee;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 30px;
-  text-shadow: 0 0 10px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
   margin-top: 10px;
   font-size: 42px;
 }
@@ -837,16 +836,16 @@ section {
 
 .cc-profile-image a:before {
   content: "";
-  border: 25px solid #00ffeabb;
+  border: 25px solid rgba(255, 255, 255, 0.671);
   border-radius: 50%;
-  height: 140px;
-  width: 140px;
+  height: 180px;
+  width: 180px;
   position: absolute;
   left: 0;
   -webkit-animation: pulsate 1.6s ease-out;
           animation: pulsate 1.6s ease-out;
-  -webkit-animation-iteration-count: inherit;
-          animation-iteration-count: inherit;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
   opacity: 0.0;
   z-index: 99;
 }
@@ -854,8 +853,8 @@ section {
 .cc-profile-image img {
   position: relative;
   border-radius: 50%;
-  height: 140px;
-  width: 140px;
+  height: 180px;
+  width: 180px;
   padding: 0;
   z-index: 9999;
   -webkit-transition: all .3s ease-out;
