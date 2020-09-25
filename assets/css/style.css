@@ -540,15 +540,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #hero .social-links-hero a {
-    font-size: 20px;
-    margin-top: 3px;
-    color: #000000;
-    line-height: 1;
-    padding-top: 4px;
-    text-align: center;
-    width: 32px;
-    height: 32px;
-    transition: 0.3s;
+visibility: hidden;
   }
 
   #hero .btn-get-started {
