@@ -1,3 +1,4 @@
-# MyWebsite.V2
+# My new website, designed &amp; built by me.
 
-my new website, designed &amp; built by me.
+<img src="/assets/img/website.jpg">
+
