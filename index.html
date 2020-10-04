@@ -30,6 +30,25 @@
 </head>
 
 <body style="background: url(&quot;/assets/img/4.png?h=8746823fb235956373cb9fe6506898b8&quot;) center / cover no-repeat, rgba(16,33,58,0);height: 580px;" navbar-transparency="true">
+    <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '338925417320999',
+            xfbml      : true,
+            version    : 'v8.0'
+          });
+          FB.AppEvents.logPageView();
+        };
+      
+        (function(d, s, id){
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) {return;}
+           js = d.createElement(s); js.id = id;
+           js.src = "https://connect.facebook.net/en_US/sdk.js";
+           fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+      </script>
+
     <!-- Start: ♣ Fixed Navbar start with transparency background -->
     <div>
         <!-- Start: Menu + header background -->
@@ -112,6 +131,14 @@
     <!-- End: About -->
     <!-- Start: --mp--Animated progress bar in viewport -->
     <section id="stats">
+        
+        <div
+            class="fb-like"
+            data-share="true"
+            data-width="450"
+            data-show-faces="true">
+        </div>
+
         <div class="container" style="padding-right: 25px;padding-left: 25px;">
             <h1 class="about-header" style="text-align: center;padding: 10px;font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,&quot;Noto Sans&quot;,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;,&quot;Noto Color Emoji&quot;;color: #212529;font-weight: 350;">Skills &amp; Technologies</h1>
             <hr id="hr-1" class="modern-form__hr">
