@@ -1,4 +1,4 @@
-# My new website, fully responsive, designed &amp; built by me.
+# My new fully responsive website
 
 <img src="/assets/img/website.jpg">
 
