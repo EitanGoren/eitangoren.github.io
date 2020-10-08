@@ -1,5 +1,5 @@
 # My New Website
-![GitHub last commit](https://img.shields.io/github/last-commit/eitangoren/eitangoren.github.io)
+![GitHub last commit](https://img.shields.io/github/last-commit/eitangoren/eitangoren.github.io) ![GitHub commits since latest release (by date) for a branch](https://img.shields.io/github/commits-since/eitangoren/eitangoren.github.io/v1.0)
 
 ## Features
 - Fully responsive
