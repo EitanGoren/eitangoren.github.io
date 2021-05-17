@@ -3,6 +3,8 @@
     border-color: transparent;
     border-width:2px;
     width:20px;
+    text-align: center;
+    align-self: center;
 }
 .modern-form__form-container{
     padding-top:100px
